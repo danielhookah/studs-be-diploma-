@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 
+if (session_status() !== PHP_SESSION_ACTIVE) {
+    session_start();
+}
+
 use App\Application\Handlers\HttpErrorHandler;
 use App\Application\Handlers\ShutdownHandler;
 use App\Application\ResponseEmitter\ResponseEmitter;
@@ -17,6 +21,7 @@ $dotenv = Dotenv::create(__DIR__ . '/../');
 $dotenv->load();
 
 define("IS_DEV_MODE", getenv('NODE_ENV') === 'development');
+define("MAINDOMAIN", getenv('MAINDOMAIN'));
 
 // Instantiate PHP-DI ContainerBuilder
 $containerBuilder = new ContainerBuilder();

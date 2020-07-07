@@ -25,6 +25,12 @@ class ResponseEmitter extends SlimResponseEmitter
             ->withAddedHeader('Cache-Control', 'post-check=0, pre-check=0')
             ->withHeader('Pragma', 'no-cache');
 
+//        header("Content-Type: text/html; charset=UTF-8");
+//        header('Access-Control-Allow-Methods: GET, POST, PATCH, PUT, DELETE, OPTIONS');
+//        header('Access-Control-Allow-Headers: Content-Type, Origin, X-CSRF-Token, X-AUTH-Token');
+//        header('Access-Control-Expose-Headers: X-AUTH-Token, X-CSRF-Token');
+//        header('Access-Control-Allow-Credentials: true');
+
         if (ob_get_contents()) {
             ob_clean();
         }

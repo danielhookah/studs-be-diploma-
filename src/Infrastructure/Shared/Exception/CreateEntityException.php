@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace App\Infrastructure\Shared\Exception;
@@ -18,7 +19,7 @@ class CreateEntityException extends \Exception
      */
     public function getMessageTemplate($name): string
     {
-        return "Error while add $name.";
+        return "An error occurred while add $name.";
     }
 
 }

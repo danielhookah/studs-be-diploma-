@@ -23,7 +23,7 @@ return function (App $app) {
     });
 
     $app->group('/api', function (Group $api) {
-        $api->group('/users', function (Group $group) {
+        $api->group('/user', function (Group $group) {
             $group->get('[/{{filters}}]', ListUsersAction::class);
 
             $group->get('/{id}', ViewUserAction::class);
