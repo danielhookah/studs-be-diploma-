@@ -10,6 +10,7 @@ use App\Infrastructure\Shared\Repository\AbstractEntityRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\ORM\Tools\Pagination\Paginator;
 use Doctrine\Persistence\ObjectRepository;
+use Exception;
 
 /**
  * Class UserRepository
@@ -23,6 +24,19 @@ class UserRepository extends AbstractEntityRepository
 
         /** @var ObjectRepository repository */
         $this->repository = $entityManager->getRepository(UserEntity::class);
+    }
+
+    /**
+     * @param array $criteria
+     *
+     * @return UserEntity[]
+     */
+    public function findBy(array $criteria): array
+    {
+        /** @var UserEntity[] $users */
+        $users = $this->repository->findBy($criteria);
+
+        return $users;
     }
 
     /**
@@ -81,6 +95,22 @@ class UserRepository extends AbstractEntityRepository
         return $this->repository->findBy([], $orderBy);
     }
 
+    /**
+     * @param $params
+     * @param bool $exceptionIfFalse
+     * @return bool
+     * @throws Exception
+     */
+    public function checkEntityExists($params, $exceptionIfFalse = false)
+    {
+        $result = !empty($this->findBy($params));
+
+        if ($exceptionIfFalse && $result === false) {
+            throw new Exception('Object does not exists', 400);
+        }
+
+        return $result;
+    }
 
     // Query Builder
 

@@ -24,6 +24,6 @@ class AddUserDTO extends AbstractDTO
         $this->lastName = $content['lastName'];
         $this->phone = $content['phone'];
         $this->email = $content['email'];
-        $this->status = (int) $content['status'];
+        $this->status = (int) !empty($content['status']) ? $content['status'] : 0;
     }
 }

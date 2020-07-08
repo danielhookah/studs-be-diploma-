@@ -9,3 +9,22 @@
 [2020-07-07T13:35:12.041894+00:00] slim-app.INFO: User of id `2` was viewed. [] {"uid":"323c652"}
 [2020-07-07T13:35:18.819970+00:00] slim-app.INFO: User of id `2` was viewed. [] {"uid":"832024c"}
 [2020-07-07T13:58:20.575130+00:00] slim-app.INFO: User of id `2` was viewed. [] {"uid":"0798a37"}
+[2020-07-08T20:44:38.891905+00:00] slim-app.INFO: User of id 4 was created. [] {"uid":"a43fa98"}
+[2020-07-08T20:44:39.724484+00:00] slim-app.INFO: ! Error while sending email. Message: SMTP Error: Could not authenticate. [] {"uid":"a43fa98"}
+[2020-07-08T21:07:53.287305+00:00] slim-app.INFO: User of id 5 was created. [] {"uid":"eff5e41"}
+[2020-07-08T21:07:53.860269+00:00] slim-app.INFO: ! Error while sending email. Message: SMTP Error: Could not authenticate. [] {"uid":"eff5e41"}
+[2020-07-08T21:10:18.704497+00:00] slim-app.INFO: User of id 6 was created. [] {"uid":"44913dc"}
+[2020-07-08T21:13:41.814428+00:00] slim-app.INFO: ! Error while sending email. Message: SMTP Error: Could not authenticate. [] {"uid":"44913dc"}
+[2020-07-08T21:13:51.647200+00:00] slim-app.INFO: User of id 7 was created. [] {"uid":"cde497c"}
+[2020-07-08T21:14:20.760942+00:00] slim-app.INFO: User of id 8 was created. [] {"uid":"3874dcd"}
+[2020-07-08T21:15:51.542871+00:00] slim-app.INFO: User of id 9 was created. [] {"uid":"adb38c1"}
+[2020-07-08T21:16:37.260251+00:00] slim-app.INFO: User of id 10 was created. [] {"uid":"fc77284"}
+[2020-07-08T21:20:57.688821+00:00] slim-app.INFO: User of id 11 was created. [] {"uid":"2bc7a88"}
+[2020-07-08T21:21:33.900038+00:00] slim-app.INFO: User of id 12 was created. [] {"uid":"85864d7"}
+[2020-07-08T21:22:14.727992+00:00] slim-app.INFO: User of id 13 was created. [] {"uid":"71333bf"}
+[2020-07-08T21:22:39.270141+00:00] slim-app.INFO: User of id 14 was created. [] {"uid":"9613460"}
+[2020-07-08T21:24:37.467476+00:00] slim-app.INFO: User of id 15 was created. [] {"uid":"96a1a8d"}
+[2020-07-08T22:04:11.671420+00:00] slim-app.INFO: Users list was viewed. [] {"uid":"a8e4d42"}
+[2020-07-08T22:04:59.322345+00:00] slim-app.INFO: Users list was viewed. [] {"uid":"070d9ea"}
+[2020-07-08T22:05:10.852230+00:00] slim-app.INFO: Users list was viewed. [] {"uid":"1ea72e9"}
+[2020-07-08T22:08:25.065947+00:00] slim-app.INFO: User of id 16 was created. [] {"uid":"a94f565"}

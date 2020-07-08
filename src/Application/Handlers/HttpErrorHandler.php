@@ -3,7 +3,6 @@ declare(strict_types=1);
 
 namespace App\Application\Handlers;
 
-use App\Application\Actions\ActionError;
 use App\Application\Actions\ActionPayload;
 use Exception;
 use Psr\Http\Message\ResponseInterface as Response;
@@ -19,52 +18,21 @@ use Throwable;
 
 class HttpErrorHandler extends SlimErrorHandler
 {
+
     /**
      * @inheritdoc
      */
     protected function respond(): Response
     {
+        /** @var Exception $exception */
         $exception = $this->exception;
-        $statusCode = 500;
-        $error = new ActionError(
-            ActionError::SERVER_ERROR,
-            'An internal error has occurred while processing your request.'
-        );
+        $statusCode = $exception->getCode() ?? 500;
+        if ($statusCode < 200 || $statusCode > 500) $statusCode = 500;
 
-        if ($exception instanceof HttpException) {
-            $statusCode = $exception->getCode();
-            $error->setDescription($exception->getMessage());
+        $data['message'] = $exception->getMessage();
+        if (IS_DEV_MODE) $data['trace'] = $exception->getTrace();
 
-            if ($exception instanceof HttpNotFoundException) {
-                $error->setType(ActionError::RESOURCE_NOT_FOUND);
-            } elseif ($exception instanceof HttpMethodNotAllowedException) {
-                $error->setType(ActionError::NOT_ALLOWED);
-            } elseif ($exception instanceof HttpUnauthorizedException) {
-                $error->setType(ActionError::UNAUTHENTICATED);
-            } elseif ($exception instanceof HttpForbiddenException) {
-                $error->setType(ActionError::INSUFFICIENT_PRIVILEGES);
-            } elseif ($exception instanceof HttpBadRequestException) {
-                $error->setType(ActionError::BAD_REQUEST);
-            } elseif ($exception instanceof HttpNotImplementedException) {
-                $error->setType(ActionError::NOT_IMPLEMENTED);
-            }
-        }
-
-        if (
-            !($exception instanceof HttpException)
-            && $exception instanceof Throwable
-            && $this->displayErrorDetails
-        ) {
-            $error->setDescription($exception->getMessage());
-        }
-
-        if (IS_DEV_MODE) {
-            $data['trace'] = $exception->getTrace();
-        } else {
-            $data = null;
-        }
-
-        $payload = new ActionPayload($statusCode, $data, $error);
+        $payload = new ActionPayload($statusCode, $data);
         $encodedPayload = json_encode($payload, JSON_PRETTY_PRINT);
 
         $response = $this->responseFactory->createResponse($statusCode);

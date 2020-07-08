@@ -23,6 +23,9 @@ $dotenv->load();
 define("IS_DEV_MODE", getenv('NODE_ENV') === 'development');
 define("MAINDOMAIN", getenv('MAINDOMAIN'));
 
+// check frontend domain for CORS
+header("Access-Control-Allow-Origin: " . getenv('FRONT_HOST'));
+
 // Instantiate PHP-DI ContainerBuilder
 $containerBuilder = new ContainerBuilder();
 
@@ -37,7 +40,6 @@ $settings($containerBuilder);
 
 // Set up dependencies
 $dependencies = require __DIR__ . '/../app/dependencies.php';
-$dependencies($containerBuilder);
 
 // Build PHP-DI Container instance
 $container = $containerBuilder->build();

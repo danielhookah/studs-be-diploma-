@@ -39,7 +39,7 @@ return function (ContainerBuilder $containerBuilder) use ($dbConfigConnectionOpt
 
             $config = new Configuration;
             $config->setMetadataCacheImpl($cache);
-            $driverImpl = $config->newDefaultAnnotationDriver(__DIR__ . '/../src', false);
+            $driverImpl = $config->newDefaultAnnotationDriver(__DIR__ . '/../../src', false);
             $config->setMetadataDriverImpl($driverImpl);
             $config->setQueryCacheImpl($cache);
             $config->setProxyDir(__DIR__ . '/../var/cache/doctrine-proxies');

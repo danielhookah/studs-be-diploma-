@@ -16,8 +16,8 @@ class MailService extends Service
     private PHPMailer $mail;
 
     private array $templates = [
-        'invite' => MAINDOMAIN . '/assets/mailings/invite.html',
-        'reset-password' => MAINDOMAIN . '/assets/mailings/reset-password.html'
+        'invite' => MAINDOMAIN . 'assets/mailings/invite.html',
+        'reset-password' => MAINDOMAIN . 'assets/mailings/reset-password.html'
     ];
 
     /**
@@ -95,8 +95,9 @@ class MailService extends Service
      */
     private function prepareTemplate(?array $paramsToReplace, string $template)
     {
+        $paramsToReplace['frontHost'] = getenv('FRONT_HOST');
         foreach ($paramsToReplace as $param => $value) {
-            str_replace("[[$param]]", $value, $template);
+            $template = str_replace("[[$param]]", $value, $template);
         }
 
         return $template;

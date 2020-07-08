@@ -9,6 +9,7 @@ use App\Domain\Services\Service;
 use App\Domain\User\Persistence\UserRepository;
 use App\Domain\User\UserEntity;
 use App\Infrastructure\Shared\Exception\CreateEntityException;
+use App\Infrastructure\Shared\Exception\ResourceNotFoundException;
 use App\Infrastructure\Shared\Exception\SendEmailException;
 use App\Infrastructure\User\Model\Request\AddUserDTO;
 use Exception;
@@ -73,5 +74,26 @@ class UserService extends Service
         ];
 
         $this->mailService->send($params, 'invite');
+    }
+
+    /**
+     * @param string $hash
+     * @param string $hashType
+     * @return bool
+     * @throws Exception
+     */
+    public function checkHashActual(string $hash, string $hashType)
+    {
+        $this->userRepository->checkEntityExists([$hashType => $hash], true);
+
+        $hashTimestamp = (int) explode('-t-', $hash)[1];
+        $currentTimestamp = time();
+
+        // 1 week
+        if ($currentTimestamp - $hashTimestamp > 604800) {
+            return false;
+        }
+
+        return true;
     }
 }

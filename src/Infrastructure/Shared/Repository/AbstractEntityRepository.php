@@ -7,6 +7,9 @@ namespace App\Infrastructure\Shared\Repository;
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\ORM\QueryBuilder;
 use Doctrine\Persistence\ObjectRepository;
+use Exception;
+use phpDocumentor\Reflection\DocBlockFactory;
+use function DI\factory;
 
 abstract class AbstractEntityRepository implements AbstractEntityRepositoryInterface
 {

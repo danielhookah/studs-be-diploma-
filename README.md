@@ -27,6 +27,10 @@ update only
 vendor/bin/doctrine-migrations diff
 vendor/bin/doctrine-migrations migrate
 ```
+or up version only
+```
+ vendor/bin/doctrine-migrations execute --up version (f.e. 20200708202614)
+```
 
 
 ## Update
