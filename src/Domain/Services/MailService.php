@@ -93,10 +93,10 @@ class MailService extends Service
      * @param string $template
      * @return string
      */
-    public function prepareTemplate(?array $paramsToReplace, string $template)
+    private function prepareTemplate(?array $paramsToReplace, string $template)
     {
         foreach ($paramsToReplace as $param => $value) {
-            str_replace("[$param]", $value, $template);
+            str_replace("[[$param]]", $value, $template);
         }
 
         return $template;

@@ -52,6 +52,18 @@ class UserEntity extends Entity
     private string $email;
 
     /**
+     * @var string|null
+     * @ORM\Column(name="`reset_pass_hash`", type="string", length=60, nullable=true)
+     */
+    private $resetPassHash = null;
+
+    /**
+     * @var string|null
+     * @ORM\Column(name="`confirm_email_hash`", type="string", length=60, nullable=true)
+     */
+    private $confirmEmailHash = null;
+
+    /**
      * Entity constructor.
      * @param array $initData
      * @throws Exception
@@ -65,6 +77,8 @@ class UserEntity extends Entity
         $this->lastName = $initData['lastName'];
         $this->phone = $initData['phone'];
         $this->email = $initData['email'];
+        $this->confirmEmailHash ??= $initData['confirmEmailHash'];
+
         $this->setCreated(new DateTime());
         $this->setUpdated(new DateTime());
     }
@@ -147,6 +161,38 @@ class UserEntity extends Entity
     public function setEmail(string $email): void
     {
         $this->email = $email;
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getResetPassHash(): ?string
+    {
+        return $this->resetPassHash;
+    }
+
+    /**
+     * @param string|null $resetPassHash
+     */
+    public function setResetPassHash(?string $resetPassHash): void
+    {
+        $this->resetPassHash = $resetPassHash;
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getConfirmEmailHash(): ?string
+    {
+        return $this->confirmEmailHash;
+    }
+
+    /**
+     * @param string|null $confirmEmailHash
+     */
+    public function setConfirmEmailHash(?string $confirmEmailHash): void
+    {
+        $this->confirmEmailHash = $confirmEmailHash;
     }
 
 }

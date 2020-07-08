@@ -1,0 +1,11 @@
+[2020-07-07T11:16:36.325765+00:00] slim-app.INFO: User of id 1 was created. [] {"uid":"edce143"}
+[2020-07-07T11:17:02.052397+00:00] slim-app.INFO: User of id 2 was created. [] {"uid":"ba4dafe"}
+[2020-07-07T11:17:14.649610+00:00] slim-app.INFO: User of id 3 was created. [] {"uid":"b564fcb"}
+[2020-07-07T13:31:47.807838+00:00] slim-app.INFO: User of id `2` was viewed. [] {"uid":"9308070"}
+[2020-07-07T13:31:55.054949+00:00] slim-app.INFO: User of id `2` was viewed. [] {"uid":"16ec201"}
+[2020-07-07T13:32:46.231166+00:00] slim-app.INFO: User of id `2` was viewed. [] {"uid":"d1c34a5"}
+[2020-07-07T13:34:20.040849+00:00] slim-app.INFO: User of id `2` was viewed. [] {"uid":"644bc08"}
+[2020-07-07T13:34:57.375991+00:00] slim-app.INFO: User of id `2` was viewed. [] {"uid":"8c30dc2"}
+[2020-07-07T13:35:12.041894+00:00] slim-app.INFO: User of id `2` was viewed. [] {"uid":"323c652"}
+[2020-07-07T13:35:18.819970+00:00] slim-app.INFO: User of id `2` was viewed. [] {"uid":"832024c"}
+[2020-07-07T13:58:20.575130+00:00] slim-app.INFO: User of id `2` was viewed. [] {"uid":"0798a37"}
