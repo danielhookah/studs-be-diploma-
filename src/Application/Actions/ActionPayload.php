@@ -17,7 +17,6 @@ class ActionPayload implements JsonSerializable
      */
     private $data;
 
-
     /**
      * @param int                   $statusCode
      * @param array|object|null     $data

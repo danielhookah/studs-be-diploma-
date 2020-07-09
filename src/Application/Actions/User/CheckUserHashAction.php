@@ -41,7 +41,7 @@ class CheckUserHashAction extends UserAction
         $result = $this->userService->checkHashActual($hash, 'confirmEmailHash');
 
         if ($result === false) {
-            return $this->respondWithData($this->buildResponseMessage('Hash is not actual.'), 200);
+            return $this->respondWithData($this->buildResponseMessage('Hash is not actual.'), 400);
         }
 
         return $this->respondWithData(null, 200);

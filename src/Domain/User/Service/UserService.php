@@ -89,8 +89,8 @@ class UserService extends Service
         $hashTimestamp = (int) explode('-t-', $hash)[1];
         $currentTimestamp = time();
 
-        // 1 week
-        if ($currentTimestamp - $hashTimestamp > 604800) {
+        // 1 week - 604800
+        if ($currentTimestamp - $hashTimestamp > 10) {
             return false;
         }
 

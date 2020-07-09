@@ -28,3 +28,7 @@
 [2020-07-08T22:04:59.322345+00:00] slim-app.INFO: Users list was viewed. [] {"uid":"070d9ea"}
 [2020-07-08T22:05:10.852230+00:00] slim-app.INFO: Users list was viewed. [] {"uid":"1ea72e9"}
 [2020-07-08T22:08:25.065947+00:00] slim-app.INFO: User of id 16 was created. [] {"uid":"a94f565"}
+[2020-07-09T07:50:07.084826+00:00] slim-app.INFO: User of id 4 was created. [] {"uid":"4203fb6"}
+[2020-07-09T08:56:46.089887+00:00] slim-app.INFO: ! Error while setting email from. Message: Invalid address:  (From):  [] {"uid":"c3e2923"}
+[2020-07-09T10:59:51.636175+00:00] slim-app.INFO: ! Error while setting email from. Message: Invalid address:  (From):  [] {"uid":"ec014f0"}
+[2020-07-09T14:49:32.766604+00:00] slim-app.INFO: ! Error while setting email from. Message: Invalid address:  (From):  [] {"uid":"846544e"}
