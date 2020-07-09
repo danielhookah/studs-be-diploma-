@@ -55,13 +55,19 @@ class UserEntity extends Entity
      * @var string|null
      * @ORM\Column(name="`reset_pass_hash`", type="string", length=60, nullable=true)
      */
-    private $resetPassHash = null;
+    private ?string $resetPassHash = null;
 
     /**
      * @var string|null
      * @ORM\Column(name="`confirm_email_hash`", type="string", length=60, nullable=true)
      */
     private $confirmEmailHash = null;
+
+    /**
+     * @var string|null
+     * @ORM\Column(name="`password`", type="string", length=60, nullable=true)
+     */
+    private $password = null;
 
     /**
      * Entity constructor.
@@ -195,4 +201,28 @@ class UserEntity extends Entity
         $this->confirmEmailHash = $confirmEmailHash;
     }
 
+    /**
+     * @return string|null
+     */
+    public function getPassword(): ?string
+    {
+        return $this->password;
+    }
+
+    /**
+     * @param string $password
+     */
+    public function setPassword($password)
+    {
+        $this->password = password_hash($password, PASSWORD_DEFAULT);
+    }
+
+    /**
+     * @param $password
+     * @return bool
+     */
+    public function verifyPassword($password): bool
+    {
+        return password_verify($password, $this->getPassword());
+    }
 }

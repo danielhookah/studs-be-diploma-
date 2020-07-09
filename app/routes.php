@@ -2,6 +2,7 @@
 declare(strict_types=1);
 
 use App\Application\Actions\User\CheckUserHashAction;
+use App\Application\Actions\User\ConfirmUserAction;
 use App\Application\Actions\User\CreateUserAction;
 use App\Application\Actions\User\DeleteUserAction;
 use App\Application\Actions\User\ListUsersAction;
@@ -28,12 +29,14 @@ return function (App $app) {
         $api->group('/user', function (Group $user) {
             // [/{{filters}}]
             $user->get('[/{{filters}}]', ListUsersAction::class);
-            $user->get('/check-hash-actual/{hash}', CheckUserHashAction::class);
 
             $user->get('/{id}', ViewUserAction::class);
             $user->post('[/]', CreateUserAction::class);
             $user->put('/{id}', UpdateUserAction::class);
             $user->delete('/{id}', DeleteUserAction::class);
+
+            $user->get('/check-hash-actual/{hash}', CheckUserHashAction::class);
+            $user->put('/{id}/confirm[/]', ConfirmUserAction::class);
         });
         // email
 //        $api->group('/email', function (Group $email) {

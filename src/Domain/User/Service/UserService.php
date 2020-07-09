@@ -78,19 +78,16 @@ class UserService extends Service
 
     /**
      * @param string $hash
-     * @param string $hashType
      * @return bool
      * @throws Exception
      */
-    public function checkHashActual(string $hash, string $hashType)
+    public function checkHashActual(string $hash)
     {
-        $this->userRepository->checkEntityExists([$hashType => $hash], true);
-
         $hashTimestamp = (int) explode('-t-', $hash)[1];
         $currentTimestamp = time();
 
         // 1 week - 604800
-        if ($currentTimestamp - $hashTimestamp > 10) {
+        if ($currentTimestamp - $hashTimestamp > 604800) {
             return false;
         }
 

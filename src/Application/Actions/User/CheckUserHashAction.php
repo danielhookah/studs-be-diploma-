@@ -37,13 +37,15 @@ class CheckUserHashAction extends UserAction
      */
     protected function action(): Response
     {
+//        return $this->respondWithData(['id' => 16], 200);
         $hash = $this->resolveArg('hash');
-        $result = $this->userService->checkHashActual($hash, 'confirmEmailHash');
+        $user = $this->userRepository->findOneBy(['confirmEmailHash' => $hash]);
+        $result = $this->userService->checkHashActual($hash);
 
         if ($result === false) {
             return $this->respondWithData($this->buildResponseMessage('Hash is not actual.'), 400);
         }
 
-        return $this->respondWithData(null, 200);
+        return $this->respondWithData(['id' => $user->getId()], 200);
     }
 }
