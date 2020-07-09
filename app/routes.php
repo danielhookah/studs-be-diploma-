@@ -1,15 +1,18 @@
 <?php
 declare(strict_types=1);
 
+use App\Application\Actions\Profile\GetCsrfTokenAction;
 use App\Application\Actions\User\CheckUserHashAction;
 use App\Application\Actions\User\ConfirmUserAction;
 use App\Application\Actions\User\CreateUserAction;
 use App\Application\Actions\User\DeleteUserAction;
 use App\Application\Actions\User\ListUsersAction;
+use App\Application\Actions\Profile\LoginAction;
 use App\Application\Actions\User\UpdateUserAction;
 use App\Application\Actions\User\ViewUserAction;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
+use Selective\Csrf\CsrfMiddleware;
 use Slim\App;
 use Slim\Interfaces\RouteCollectorProxyInterface as Group;
 
@@ -24,7 +27,7 @@ return function (App $app) {
         return $response;
     });
 
-    $app->group('/api', function (Group $api) {
+    $app->group('/api', function (Group $api) use ($app) {
         // user
         $api->group('/user', function (Group $user) {
             // [/{{filters}}]
@@ -37,11 +40,14 @@ return function (App $app) {
 
             $user->get('/check-hash-actual/{hash}', CheckUserHashAction::class);
             $user->put('/{id}/confirm[/]', ConfirmUserAction::class);
+        })->add($app->getContainer()->get(CsrfMiddleware::class));
+
+        // profile
+        $api->group('/profile', function (Group $profile) {
+//            $profile->get('[/]', ViewUserAction::class);
+            $profile->get('/csrf-token[/]', GetCsrfTokenAction::class);
+            $profile->post('/login[/]', LoginAction::class);
         });
-        // email
-//        $api->group('/email', function (Group $email) {
-//            $email->get('/check-hash-relevance', ViewUserAction::class);
-//        });
 
     });
 };

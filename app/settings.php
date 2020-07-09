@@ -14,6 +14,12 @@ return function (ContainerBuilder $containerBuilder) {
                 'path' => __DIR__ . '/../logs/app.log',
                 'level' => Logger::DEBUG,
             ],
+            'jwt' => [
+                'issuer' => 'studs.me',
+                'lifetime' => getenv('AUTH_TTL'),
+                'private_key' => str_replace('|||', PHP_EOL, getenv('PRIVATE_JWT_KEY')),
+                'public_key' => str_replace('|||', PHP_EOL, getenv('PRIVATE_JWT_KEY'))
+            ]
         ],
     ]);
 };
