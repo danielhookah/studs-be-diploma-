@@ -16,7 +16,7 @@ class ResponseEmitter extends SlimResponseEmitter
         $response = $response
             ->withHeader('Content-Type', 'application/json;charset=UTF-8')
             ->withHeader('Access-Control-Allow-Credentials', 'true')
-            ->withHeader('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type, Accept, Origin, Authorization')
+            ->withHeader('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type, Accept, Origin, Authorization, X-CSRF-Token')
             ->withHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, PATCH, DELETE, OPTIONS')
             ->withHeader('Access-Control-Expose-Headers', 'X-AUTH-Token, X-CSRF-Token')
             ->withHeader('Pragma', 'no-cache')

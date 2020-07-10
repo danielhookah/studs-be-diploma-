@@ -3,7 +3,15 @@
 declare(strict_types=1);
 
 if (session_status() !== PHP_SESSION_ACTIVE) {
-    session_start();
+    session_start([
+        'use_cookies'      => true,
+        'use_only_cookies' => true,
+        'use_trans_sid'    => false,
+        'cookie_httponly'  => true,
+        'cookie_lifetime'  => 0,
+        'cookie_path'      => '/',
+        'cache_limiter'    => '',
+    ]);
 }
 
 use App\Application\Handlers\HttpErrorHandler;

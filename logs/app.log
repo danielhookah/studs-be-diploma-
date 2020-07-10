@@ -33,3 +33,16 @@
 [2020-07-09T10:59:51.636175+00:00] slim-app.INFO: ! Error while setting email from. Message: Invalid address:  (From):  [] {"uid":"ec014f0"}
 [2020-07-09T14:49:32.766604+00:00] slim-app.INFO: ! Error while setting email from. Message: Invalid address:  (From):  [] {"uid":"846544e"}
 [2020-07-09T20:25:18.181167+00:00] slim-app.INFO: User of id 16 was confirmed. [] {"uid":"f67df3a"}
+[2020-07-10T11:03:47.826677+00:00] slim-app.INFO: User of id 5 was created. [] {"uid":"df65d5d"}
+[2020-07-10T11:03:48.604510+00:00] slim-app.INFO: ! Error while sending email. Message: SMTP Error: Could not authenticate. [] {"uid":"df65d5d"}
+[2020-07-10T11:50:25.199695+00:00] slim-app.INFO: User of id 6 was created. [] {"uid":"13fbd56"}
+[2020-07-10T11:50:25.737416+00:00] slim-app.INFO: ! Error while sending email. Message: SMTP Error: Could not authenticate. [] {"uid":"13fbd56"}
+[2020-07-10T11:53:43.540131+00:00] slim-app.INFO: User of id 7 was created. [] {"uid":"3a5b29d"}
+[2020-07-10T11:53:43.985840+00:00] slim-app.INFO: ! Error while sending email. Message: SMTP Error: Could not authenticate. [] {"uid":"3a5b29d"}
+[2020-07-10T11:56:22.434538+00:00] slim-app.INFO: ! Error while sending email. Message: SMTP Error: Could not authenticate. [] {"uid":"d2ea6ee"}
+[2020-07-10T11:57:02.824893+00:00] slim-app.INFO: ! Error while sending email. Message: SMTP Error: Could not authenticate. [] {"uid":"cd59448"}
+[2020-07-10T12:00:42.480392+00:00] slim-app.INFO: User of id 8 was created. [] {"uid":"48c1f72"}
+[2020-07-10T13:40:31.744416+00:00] slim-app.INFO: User of id 9 was created. [] {"uid":"3758eb6"}
+[2020-07-10T14:07:50.975596+00:00] slim-app.INFO: User of id 10 was created. [] {"uid":"9b9c097"}
+[2020-07-10T14:08:40.996656+00:00] slim-app.INFO: User of id 11 was created. [] {"uid":"9668485"}
+[2020-07-10T14:15:21.236646+00:00] slim-app.INFO: User of id 9 was confirmed. [] {"uid":"26a5802"}
