@@ -17,8 +17,10 @@ return function (ContainerBuilder $containerBuilder) {
             'jwt' => [
                 'issuer' => 'studs.me',
                 'lifetime' => getenv('AUTH_TTL'),
-                'private_key' => str_replace('|||', PHP_EOL, getenv('PRIVATE_JWT_KEY')),
-                'public_key' => str_replace('|||', PHP_EOL, getenv('PRIVATE_JWT_KEY'))
+                'private_key' => file_get_contents(__DIR__ . '/private.pem'),
+                'public_key' => file_get_contents(__DIR__ . '/public.pem')
+//                'private_key' => str_replace('|||', PHP_EOL, getenv('PRIVATE_JWT_KEY')),
+//                'public_key' => str_replace('|||', PHP_EOL, getenv('PRIVATE_JWT_KEY'))
             ]
         ],
     ]);

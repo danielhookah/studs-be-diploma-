@@ -6,18 +6,15 @@ namespace App\Application\Actions\Profile;
 use App\Application\Actions\User\UserAction;
 use App\Domain\Auth\Service\AuthService;
 use App\Domain\User\Persistence\UserRepository;
-use App\Domain\User\UserEntity;
-use App\Infrastructure\User\Model\Request\ResponseUserDTO;
 use Exception;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Log\LoggerInterface;
-use Slim\Exception\HttpBadRequestException;
 
 /**
- * Class LoginAction
- * @package App\Application\Actions\User\Profile
+ * Class LogoutAction
+ * @package App\Application\Actions\Profile
  */
-class LoginAction extends UserAction
+class LogoutAction extends UserAction
 {
 
     private AuthService $authService;
@@ -34,17 +31,11 @@ class LoginAction extends UserAction
 
     /**
      * @return Response
-     * @throws HttpBadRequestException
      * @throws Exception
      */
     protected function action(): Response
     {
-        list('email' => $email, 'password' => $password) = $this->getRequestContent();
-        /** @var UserEntity $user */
-        $user = $this->authService->authUser($email, $password);
-        $responseUserDTO = new ResponseUserDTO();
-        $responseUserDTO->setData($user);
-
-        return $this->respondWithData($responseUserDTO->toArray(), 200);
+        $this->authService->logout();
+        return $this->respondWithData(null, 200);
     }
 }

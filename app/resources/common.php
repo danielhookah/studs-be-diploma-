@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+use App\Application\Middleware\JwtAuthMiddleware;
+use App\Application\Middleware\SessionMiddleware;
 use App\Domain\Auth\Service\JwtAuth;
 use DI\ContainerBuilder;
 use Doctrine\ORM\Configuration;
@@ -34,10 +36,8 @@ return function (ContainerBuilder $containerBuilder) use ($dbConfigConnectionOpt
 
             return $logger;
         },
-    ]);
 
-    /** DOCTRINE ORM **/
-    $containerBuilder->addDefinitions([
+        /** DOCTRINE ORM **/
         EntityManagerInterface::class => function (ContainerInterface $c) use ($dbConfigConnectionOptions) {
             $cache = IS_DEV_MODE ? new \Doctrine\Common\Cache\ArrayCache : new \Doctrine\Common\Cache\ApcCache;
 
@@ -57,11 +57,9 @@ return function (ContainerBuilder $containerBuilder) use ($dbConfigConnectionOpt
             }
 
             return $em = EntityManager::create($dbConfigConnectionOptions, $config);
-        }
-    ]);
+        },
 
-    /** AUTH **/
-    $containerBuilder->addDefinitions([
+        /** AUTH **/
         JwtAuth::class => function (ContainerInterface $container) {
             $config = $container->get('settings')['jwt'];
 
@@ -72,13 +70,14 @@ return function (ContainerBuilder $containerBuilder) use ($dbConfigConnectionOpt
 
             return new JwtAuth($issuer, $lifetime, $privateKey, $publicKey);
         },
-    ]);
-    $containerBuilder->addDefinitions([
+        JwtAuthMiddleware::class => function (ContainerInterface $container) {
+            $jwtAuth = $container->get(JwtAuth::class);
+            $em = $container->get(EntityManagerInterface::class);
+            return new JwtAuthMiddleware($jwtAuth, $em);
+        },
         StreamFactoryInterface::class => function (ContainerInterface $container) {
             return new StreamFactory();
         },
-    ]);
-    $containerBuilder->addDefinitions([
         CsrfMiddleware::class => function (ContainerInterface $container) {
             $responseFactory = $container->get(StreamFactoryInterface::class);
 

@@ -33,6 +33,9 @@ define("MAINDOMAIN", getenv('MAINDOMAIN'));
 
 // check frontend domain for CORS
 header("Access-Control-Allow-Origin: " . getenv('FRONT_HOST'));
+header('Access-Control-Allow-Credentials: true');
+header('Access-Control-Allow-Headers: Content-Type, Origin, X-CSRF-Token, X-AUTH-Token');
+header('Access-Control-Expose-Headers: X-AUTH-Token, X-CSRF-Token');
 
 // Instantiate PHP-DI ContainerBuilder
 $containerBuilder = new ContainerBuilder();

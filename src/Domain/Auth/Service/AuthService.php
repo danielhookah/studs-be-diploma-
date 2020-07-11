@@ -61,13 +61,12 @@ class AuthService extends Service
             'uid' => $user->getEmail() . '-' . $user->getId(),
         ]);
 
-        $lifetime = $this->jwtAuth->getLifetime();
-
-        $result = [
-            'access_token' => $token,
-            'token_type' => 'Bearer',
-            'expires_in' => $lifetime,
-        ];
+//        $lifetime = $this->jwtAuth->getLifetime();
+//        $result = [
+//            'access_token' => $token,
+//            'token_type' => 'Bearer',
+//            'expires_in' => $lifetime,
+//        ];
 
 //        $_SESSION['user'] = json_encode($result);
         $_SESSION['userid'] = $user->getId();
@@ -76,5 +75,26 @@ class AuthService extends Service
         setcookie('authl', '1', time() + getenv('AUTH_TTL'), '/', '', false, false);
 
         return $user;
+    }
+
+    public function logout()
+    {
+        $_SESSION = [];
+        if (ini_get("session.use_cookies")) {
+            $params = session_get_cookie_params();
+            setcookie(session_name(), '', time() - 42000,
+                $params["path"], $params["domain"],
+                $params["secure"], $params["httponly"]
+            );
+            setcookie('authtoken', '', time() - 42000,
+                $params["path"], $params["domain"],
+                $params["secure"], $params["httponly"]
+            );
+            setcookie('authl', '', time() - 42000,
+                $params["path"], $params["domain"],
+                $params["secure"], $params["httponly"]
+            );
+        }
+        session_destroy();
     }
 }
