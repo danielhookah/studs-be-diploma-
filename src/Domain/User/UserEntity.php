@@ -67,7 +67,15 @@ class UserEntity extends Entity
      * @var string|null
      * @ORM\Column(name="`password`", type="string", length=60, nullable=true)
      */
-    private $password = null;
+    private ?string $password = null;
+
+    // Joins
+
+    /**
+     * @var Collection|null
+     * @ORM\OneToMany(targetEntity="App\Domain\ProjectUser\ProjectUserEntity", mappedBy="user", cascade={"all"})
+     */
+    private ?Collection $projectUsers;
 
     /**
      * Entity constructor.
@@ -85,8 +93,7 @@ class UserEntity extends Entity
         $this->email = $initData['email'];
         $this->confirmEmailHash ??= $initData['confirmEmailHash'];
 
-        $this->setCreated(new DateTime());
-        $this->setUpdated(new DateTime());
+        $this->projectUsers = new ArrayCollection();
     }
 
     /**
@@ -225,4 +232,21 @@ class UserEntity extends Entity
     {
         return password_verify($password, $this->getPassword());
     }
+
+    /**
+     * @return Collection|null
+     */
+    public function getProjectUsers(): ?Collection
+    {
+        return $this->projectUsers;
+    }
+
+    /**
+     * @param Collection|null $projectUsers
+     */
+    public function setProjectUsers(?Collection $projectUsers): void
+    {
+        $this->projectUsers = $projectUsers;
+    }
+
 }
