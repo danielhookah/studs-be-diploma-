@@ -7,7 +7,7 @@ use App\Application\Actions\User\UserAction;
 use App\Domain\Auth\Service\AuthService;
 use App\Domain\User\Persistence\UserRepository;
 use App\Domain\User\UserEntity;
-use App\Infrastructure\User\Model\Request\ResponseUserDTO;
+use App\Infrastructure\User\Model\Response\ResponseUserDTO;
 use Exception;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Log\LoggerInterface;

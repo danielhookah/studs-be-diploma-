@@ -55,7 +55,11 @@ class ActionPayload implements JsonSerializable
         ];
 
         if ($this->data !== null) {
-            $payload['data'] = $this->data;
+            if (is_array($this->data) && count($this->data) === 1) {
+                $payload[key($this->data)] = reset($this->data);
+            } else {
+                $payload['data'] = $this->data;
+            }
         }
 
         return $payload;

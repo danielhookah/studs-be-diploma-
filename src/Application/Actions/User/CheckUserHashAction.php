@@ -7,7 +7,6 @@ use App\Domain\User\Persistence\UserRepository;
 use App\Domain\User\Service\UserFactory;
 use App\Domain\User\Service\UserService;
 use App\Infrastructure\Shared\Exception\CreateEntityException;
-use App\Infrastructure\User\Model\Request\AddUserDTO;
 use Exception;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Log\LoggerInterface;

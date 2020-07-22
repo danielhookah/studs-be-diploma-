@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace App\Infrastructure\User\Model\Request;
+namespace App\Infrastructure\Project\Model\Response;
 
 use App\Domain\User\UserEntity;
 use App\Infrastructure\Shared\DTO\AbstractDTO;
 use Psr\Http\Message\ServerRequestInterface as Request;
 
-class ResponseUserDTO extends AbstractDTO
+class ResponseProjectDTO extends AbstractDTO
 {
     public int $id;
     public string $firstName;

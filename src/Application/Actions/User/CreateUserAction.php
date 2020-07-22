@@ -50,12 +50,16 @@ class CreateUserAction extends UserAction
         $this->addUserDTO->setData($this->getRequestContent());
         $dataDTO = $this->addUserDTO->toArray();
         $this->userService->checkUserUniq($dataDTO['email'], $dataDTO['phone']);
+
         // create & save user
         $userEntity = $this->userFactory->create($dataDTO);
         $this->userRepository->save($userEntity);
+
         $this->logger->info("User of id " . $userEntity->getId() . " was created.");
+
         // send email & return response
         $this->userService->sendConfirmEmail($userEntity);
+
         return $this->respondWithData($this->buildResponseMessage('User was created.'), 201);
     }
 }

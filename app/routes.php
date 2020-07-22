@@ -3,6 +3,7 @@ declare(strict_types=1);
 
 use App\Application\Actions\Profile\GetCsrfTokenAction;
 use App\Application\Actions\Profile\LogoutAction;
+use App\Application\Actions\Project\CreateProjectAction;
 use App\Application\Actions\User\CheckUserHashAction;
 use App\Application\Actions\User\ConfirmUserAction;
 use App\Application\Actions\User\CreateUserAction;
@@ -51,6 +52,16 @@ return function (App $app) {
             $profile->post('/logout[/]', LogoutAction::class)
                 ->add($app->getContainer()->get(JwtAuthMiddleware::class));
         });
+
+        // project
+        $api->group('/project', function (Group $project) {
+//            $project->get('[/{{filters}}]', ListUsersAction::class);
+
+//            $project->get('/{id}', ViewUserAction::class);
+            $project->post('[/]', CreateProjectAction::class);
+//            $project->put('/{id}', UpdateUserAction::class);
+//            $project->delete('/{id}', DeleteUserAction::class);
+        })->add($app->getContainer()->get(JwtAuthMiddleware::class));
 
     })->add($app->getContainer()->get(CsrfMiddleware::class));
 };

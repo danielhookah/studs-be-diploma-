@@ -11,7 +11,7 @@ use App\Domain\User\UserEntity;
 use App\Infrastructure\Shared\Exception\CreateEntityException;
 use App\Infrastructure\Shared\Exception\ResourceNotFoundException;
 use App\Infrastructure\Shared\Exception\SendEmailException;
-use App\Infrastructure\User\Model\Request\AddUserDTO;
+use App\Infrastructure\User\Model\Request\AddProjectDTO;
 use Exception;
 use Psr\Log\LoggerInterface;
 

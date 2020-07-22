@@ -4,39 +4,31 @@ declare(strict_types=1);
 
 namespace App\Infrastructure\User\Model\Response;
 
-class ResponseUserDTO
+use App\Domain\User\UserEntity;
+use App\Infrastructure\Shared\DTO\AbstractDTO;
+use Psr\Http\Message\ServerRequestInterface as Request;
+
+class ResponseUserDTO extends AbstractDTO
 {
-    /**
-     * @var int
-     */
-    private $id;
+    public int $id;
+    public string $firstName;
+    public string $lastName;
+    public string $phone;
+    public string $email;
+    public int $status;
+    public string $image;
 
     /**
-     * @var string
+     * @param UserEntity $user
      */
-    private $firstName;
-
-    /**
-     * @var string
-     */
-    private $lastName;
-
-    /**
-     * @var string
-     */
-    private $phone;
-
-    /**
-     * @var string
-     */
-    private $email;
-
-    public function __construct(int $id, string $name, array $ingredients, ?string $image)
+    public function setData($user)
     {
-        $this->id = $id;
-        $this->firstName = $name;
-        $this->lastName = $ingredients;
-        $this->phone = $image;
-        $this->email = $image;
+        $this->id = $user->getId();
+        $this->firstName = $user->getFirstName();
+        $this->lastName = $user->getLastName();
+        $this->phone = $user->getPhone();
+        $this->email = $user->getEmail();
+        $this->status = $user->getStatus();
+//        $this->image = $user->getImage();
     }
 }

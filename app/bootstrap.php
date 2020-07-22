@@ -23,6 +23,7 @@ use Slim\Factory\AppFactory;
 use Slim\Factory\ServerRequestCreatorFactory;
 
 require __DIR__ . '/../vendor/autoload.php';
+require __DIR__ . '/functions.php';
 
 // Load all custom env vars
 $dotenv = Dotenv::create(__DIR__ . '/../');
@@ -30,6 +31,9 @@ $dotenv->load();
 
 define("IS_DEV_MODE", getenv('NODE_ENV') === 'development');
 define("MAINDOMAIN", getenv('MAINDOMAIN'));
+
+define("IMAGE_PATH", __DIR__ . '/../public/assets/images/');
+define("FOLDER_URL", getSiteURL() . getenv('PATH_TO_IMAGES'));
 
 // check frontend domain for CORS
 header("Access-Control-Allow-Origin: " . getenv('FRONT_HOST'));

@@ -78,7 +78,7 @@ class ProjectEntity extends Entity
         $this->name = $initData['name'];
         $this->description = $initData['description'];
         $this->email = $initData['email'];
-        $this->image ??= $initData['image'];
+        $this->image = array_key_exists('image', $initData) ? $initData['image'] : null;
 
         $this->projectUsers = new ArrayCollection();
         $this->directions = new ArrayCollection();

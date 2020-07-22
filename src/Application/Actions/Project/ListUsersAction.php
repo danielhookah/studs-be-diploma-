@@ -5,7 +5,8 @@ namespace App\Application\Actions\User;
 
 use App\Domain\User\Persistence\UserRepository;
 use App\Domain\User\UserEntity;
-use App\Infrastructure\User\Model\Response\ResponseUserDTO;
+use App\Infrastructure\User\Model\Request\AddProjectDTO;
+use App\Infrastructure\User\Model\Request\ResponseProjectDTO;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Log\LoggerInterface;
 
@@ -25,7 +26,7 @@ class ListUsersAction extends UserAction
         $data = $this->userRepository->createQueryBuilder(['perPage' => 3, 'firstResult' => 0])
             ->getPaginatedList();
         $data['users'] = array_map(function (UserEntity $user) {
-            $responseUserDTO = new ResponseUserDTO();
+            $responseUserDTO = new ResponseProjectDTO();
             $responseUserDTO->setData($user);
 
             return $responseUserDTO;
