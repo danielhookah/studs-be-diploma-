@@ -56,4 +56,4 @@
 /app/private.pem
 /app/public.pem
 
-/logs
+/logs/*
