@@ -4,29 +4,29 @@ declare(strict_types=1);
 
 namespace App\Infrastructure\Project\Model\Response;
 
-use App\Domain\User\UserEntity;
+use App\Domain\Project\ProjectEntity;
 use App\Infrastructure\Shared\DTO\AbstractDTO;
 use Psr\Http\Message\ServerRequestInterface as Request;
 
 class ResponseProjectDTO extends AbstractDTO
 {
     public int $id;
-    public string $firstName;
-    public string $lastName;
-    public string $phone;
-    public string $email;
+    public string $name;
+    public string $description;
     public int $status;
+    public string $email;
+    public ?string $image;
 
     /**
-     * @param UserEntity $user
+     * @param ProjectEntity $project
      */
-    public function setData($user)
+    public function setData($project)
     {
-        $this->id = $user->getId();
-        $this->firstName = $user->getFirstName();
-        $this->lastName = $user->getLastName();
-        $this->phone = $user->getPhone();
-        $this->email = $user->getEmail();
-        $this->status = $user->getStatus();
+        $this->id = $project->getId();
+        $this->name = $project->getName();
+        $this->description = $project->getDescription();
+        $this->status = $project->getStatus();
+        $this->email = $project->getEmail();
+        $this->image = $project->getImage();
     }
 }

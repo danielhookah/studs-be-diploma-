@@ -125,6 +125,14 @@ abstract class Action
     }
 
     /**
+     * @return array
+     */
+    public function getQueryParams(): array
+    {
+        return $this->request->getQueryParams();
+    }
+
+    /**
      * @param ActionPayload $payload
      * @return Response
      */
