@@ -2,15 +2,19 @@
 declare(strict_types=1);
 
 use App\Infrastructure\Project\Model\Request\AddProjectDTO;
+use App\Infrastructure\Project\Model\Request\UpdateProjectDTO;
 use App\Infrastructure\User\Model\Request\AddUserDTO;
 use App\Infrastructure\User\Model\Request\UpdateUserDTO;
 use DI\ContainerBuilder;
 
 return function (ContainerBuilder $containerBuilder) {
     $containerBuilder->addDefinitions([
+        // user
         AddUserDTO::class => \DI\autowire(AddUserDTO::class),
-        AddProjectDTO::class => \DI\autowire(AddProjectDTO::class),
         UpdateUserDTO::class => \DI\autowire(UpdateUserDTO::class),
+        // project
+        AddProjectDTO::class => \DI\autowire(AddProjectDTO::class),
+        UpdateProjectDTO::class => \DI\autowire(UpdateProjectDTO::class),
     ]);
 };
 

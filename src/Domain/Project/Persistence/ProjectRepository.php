@@ -127,8 +127,11 @@ class ProjectRepository extends AbstractEntityRepository
         $firstResult = $filters['firstResult'] ?? 0;
 
         $qb->select('project')->from(ProjectEntity::class, 'project');
-
         $qb->setFirstResult($firstResult)->setMaxResults($perPage);
+
+        if ($filters['actualOnly']) {
+            $qb->andWhere($qb->expr()->isNull('project.deleted'));
+        }
 
         return $this;
     }

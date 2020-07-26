@@ -3,8 +3,10 @@
 namespace App\Domain\Project;
 
 use App\Domain\Entities\Entity;
+use App\Domain\ProjectUser\ProjectUserEntity;
 use App\Domain\Traits\EntityHelperTrait;
 use App\Domain\Traits\EntitySoftDeleteTrait;
+use App\Domain\User\UserEntity;
 use App\Infrastructure\Shared\DTO\AbstractDTOInterface;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
@@ -196,4 +198,15 @@ class ProjectEntity extends Entity
         $this->directions = $directions;
     }
 
+    // custom
+
+    /**
+     * @return UserEntity
+     */
+    public function getCreator(): UserEntity
+    {
+        return $this->getProjectUsers()->filter(function (ProjectUserEntity $user) {
+            return $user->getUser()->getRole() === 1;
+        })->toArray()[0]->getUser();
+    }
 }

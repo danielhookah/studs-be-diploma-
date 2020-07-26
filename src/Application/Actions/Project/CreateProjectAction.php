@@ -46,7 +46,6 @@ class CreateProjectAction extends ProjectAction
      */
     protected function action(): Response
     {
-        // todo create connection with user & role
         // set data from request & check it
         $this->addProjectDTO->setData($this->getRequestContent());
         $dataDTO = $this->addProjectDTO->toArray();
@@ -54,10 +53,12 @@ class CreateProjectAction extends ProjectAction
 
         // create & save project
         $projectEntity = $this->projectFactory->create($dataDTO);
+        $this->projectService->setProject($projectEntity);
+        $this->projectService->setCreator();
         $this->projectRepository->save($projectEntity);
 
         // upload & set image
-        if ($this->projectService->setProject($projectEntity)->uploadImage($image)) {
+        if ($this->projectService->uploadImage($image)) {
             $this->projectRepository->save($projectEntity);
         }
 

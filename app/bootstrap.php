@@ -10,7 +10,7 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
         'cookie_httponly'  => true,
         'cookie_lifetime'  => 0,
         'cookie_path'      => '/',
-        'cache_limiter'    => '',
+        'cache_limiter'    => ''
     ]);
 }
 

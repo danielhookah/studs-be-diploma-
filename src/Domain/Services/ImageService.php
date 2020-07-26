@@ -3,6 +3,8 @@
 namespace App\Domain\Services;
 
 use App\Infrastructure\Shared\Exception\SendEmailException;
+use Doctrine\ORM\EntityManager;
+use Doctrine\ORM\EntityManagerInterface;
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\PHPMailer;
 use Psr\Log\LoggerInterface;
@@ -19,10 +21,11 @@ class ImageService extends Service
     /**
      * ImageService constructor.
      * @param LoggerInterface $logger
+     * @param EntityManagerInterface $em
      */
-    public function __construct(LoggerInterface $logger)
+    public function __construct(LoggerInterface $logger, EntityManagerInterface $em)
     {
-        parent::__construct($logger);
+        parent::__construct($logger, $em);
     }
 
     /**
@@ -49,6 +52,8 @@ class ImageService extends Service
      */
     public function base64ToImage($data, $entityId) {
         $filename = $this->generateUniqImageName($this->imagePath, $entityId);
+        // remove all spaces
+        $filename = preg_replace("/\s+/", "", $filename);
 
         if (preg_match('/^data:image\/(\w+);base64,/', $data, $type)) {
             $data = substr($data, strpos($data, ',') + 1);
@@ -86,5 +91,15 @@ class ImageService extends Service
         }
 
         return $randomImageName;
+    }
+
+    /**
+     * @param $img
+     * @return bool
+     */
+    public function checkIsImageUrl($img)
+    {
+        if (preg_match('/^data:image\/(\w+);base64,/', $img)) return false;
+        return true;
     }
 }

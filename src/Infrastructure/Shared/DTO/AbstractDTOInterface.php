@@ -12,7 +12,7 @@ use Psr\Http\Message\ServerRequestInterface as Request;
  */
 interface AbstractDTOInterface
 {
-    public function setData($data);
+    public function setData($data, array $dataToPlug);
 
     public function toArray() : array;
 

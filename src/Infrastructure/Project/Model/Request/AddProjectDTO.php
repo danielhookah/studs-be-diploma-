@@ -17,8 +17,9 @@ class AddProjectDTO extends AbstractDTO
 
     /**
      * @param array $content
+     * @param array $dataToPlug
      */
-    public function setData($content)
+    public function setData($content, $dataToPlug = [])
     {
         $this->status = (int) !empty($content['status']) ? $content['status'] : 0;
         $this->name = $content['name'];

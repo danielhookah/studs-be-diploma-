@@ -22,10 +22,16 @@ class UserEntity extends Entity
     use EntitySoftDeleteTrait;
 
     /**
-     * @ORM\Column(name="`status`", type="integer", nullable=true)
+     * @ORM\Column(name="`status`", type="integer")
      * @var integer
      */
     private int $status;
+
+    /**
+     * @ORM\Column(name="`role`", type="integer")
+     * @var integer
+     */
+    private int $role;
 
     /**
      * @var string
@@ -86,7 +92,8 @@ class UserEntity extends Entity
     {
         parent::__construct();
 
-        $this->status = $initData['status'];
+        $this->status = $initData['status'] ?? 1;
+        $this->role = $initData['role'];
         $this->firstName = $initData['firstName'];
         $this->lastName = $initData['lastName'];
         $this->phone = $initData['phone'];
@@ -110,6 +117,22 @@ class UserEntity extends Entity
     public function setStatus(int $status): void
     {
         $this->status = $status;
+    }
+
+    /**
+     * @return int
+     */
+    public function getRole(): int
+    {
+        return $this->role;
+    }
+
+    /**
+     * @param int $role
+     */
+    public function setRole(int $role): void
+    {
+        $this->role = $role;
     }
 
     /**

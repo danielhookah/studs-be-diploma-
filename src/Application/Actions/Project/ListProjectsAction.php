@@ -26,7 +26,8 @@ class ListProjectsAction extends ProjectAction
         $params = $this->getQueryParams();
         $data = $this->projectRepository->createQueryBuilder([
             'perPage' => $params['perPage'],
-            'firstResult' => $params['firstResult']
+            'firstResult' => $params['firstResult'],
+            'actualOnly' => true
         ])->getPaginatedList();
 
         $data['projects'] = array_map(function (ProjectEntity $project) {

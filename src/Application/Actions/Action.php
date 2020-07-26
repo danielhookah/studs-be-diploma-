@@ -108,7 +108,6 @@ abstract class Action
     protected function respondWithData($data = null, int $statusCode = 200): Response
     {
         $payload = new ActionPayload($statusCode, $data);
-
         return $this->respond($payload);
     }
 

@@ -9,6 +9,7 @@ use App\Domain\Services\Service;
 use App\Domain\User\Persistence\UserRepository;
 use App\Domain\User\UserEntity;
 use App\Infrastructure\Shared\Exception\ResourceNotFoundException;
+use Doctrine\ORM\EntityManagerInterface;
 use Exception;
 use Psr\Log\LoggerInterface;
 
@@ -25,18 +26,20 @@ class AuthService extends Service
     /**
      * AuthService constructor.
      * @param LoggerInterface $logger
+     * @param EntityManagerInterface $em
      * @param UserRepository $userRepository
      * @param MailService $mailService
      * @param JwtAuth $jwtAuth
      */
     public function __construct(
         LoggerInterface $logger,
+        EntityManagerInterface $em,
         UserRepository $userRepository,
         MailService $mailService,
         JwtAuth $jwtAuth
     )
     {
-        parent::__construct($logger);
+        parent::__construct($logger, $em);
         $this->userRepository = $userRepository;
         $this->mailService = $mailService;
         $this->jwtAuth = $jwtAuth;

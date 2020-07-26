@@ -4,6 +4,8 @@ declare(strict_types=1);
 namespace App\Application\Middleware;
 
 use App\Domain\Auth\Service\JwtAuth;
+use App\Domain\Services\AccessService;
+use App\Domain\User\UserEntity;
 use Doctrine\ORM\EntityManager;
 use Exception;
 use Psr\Http\Message\ResponseInterface as Response;
@@ -64,6 +66,10 @@ final class JwtAuthMiddleware implements Middleware
 
         setcookie('authtoken', $token, time() + getenv('AUTH_TTL'), '/', '', false, true);
         setcookie('authl', '1', time() + getenv('AUTH_TTL'), '/', '', false, false);
+
+        /** @var UserEntity $authorizedUser */
+        $authorizedUser = $this->em->getRepository(UserEntity::class)->find($_SESSION['userid']);
+        AccessService::setUser($authorizedUser);
 
 //        $authorizedUser = $this->em->getRepository(UserEntity::class)->find($_SESSION['userid']);
 //        PermissionAccessService::setUser($authorizedUser);

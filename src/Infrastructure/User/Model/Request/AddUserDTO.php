@@ -14,6 +14,7 @@ class AddUserDTO extends AbstractDTO
     public string $phone;
     public string $email;
     public int $status;
+    public int $role;
 
     /**
      * @param array $content
@@ -25,5 +26,6 @@ class AddUserDTO extends AbstractDTO
         $this->phone = $content['phone'];
         $this->email = $content['email'];
         $this->status = (int) !empty($content['status']) ? $content['status'] : 0;
+        $this->role = (int) $content['role'];
     }
 }

@@ -11,7 +11,7 @@ use Slim\Exception\HttpBadRequestException;
 abstract class AbstractDTO implements AbstractDTOInterface
 {
 
-    public abstract function setData($data);
+    public abstract function setData($data, $dataToPlug = []);
 
     /**
      * @return array
@@ -20,6 +20,7 @@ abstract class AbstractDTO implements AbstractDTOInterface
     {
         $data = [];
         foreach ($this as $key => $value) {
+            if ($value === false) continue;
             $data[$key] = $value;
         }
 

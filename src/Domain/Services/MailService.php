@@ -3,6 +3,8 @@
 namespace App\Domain\Services;
 
 use App\Infrastructure\Shared\Exception\SendEmailException;
+use Doctrine\ORM\EntityManager;
+use Doctrine\ORM\EntityManagerInterface;
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\PHPMailer;
 use Psr\Log\LoggerInterface;
@@ -23,11 +25,12 @@ class MailService extends Service
     /**
      * MailService constructor.
      * @param LoggerInterface $logger
+     * @param EntityManagerInterface $em
      * @throws SendEmailException
      */
-    public function __construct(LoggerInterface $logger)
+    public function __construct(LoggerInterface $logger, EntityManagerInterface $em)
     {
-        parent::__construct($logger);
+        parent::__construct($logger, $em);
 
         // host
         $emailFrom = getenv('MAIL_LOGIN');
