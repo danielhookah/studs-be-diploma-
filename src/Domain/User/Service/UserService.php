@@ -12,6 +12,8 @@ use App\Infrastructure\Shared\Exception\CreateEntityException;
 use App\Infrastructure\Shared\Exception\ResourceNotFoundException;
 use App\Infrastructure\Shared\Exception\SendEmailException;
 use App\Infrastructure\User\Model\Request\AddProjectDTO;
+use Doctrine\ORM\EntityManager;
+use Doctrine\ORM\EntityManagerInterface;
 use Exception;
 use Psr\Log\LoggerInterface;
 
@@ -29,14 +31,16 @@ class UserService extends Service
      * @param LoggerInterface $logger
      * @param UserRepository $userRepository
      * @param MailService $mailService
+     * @param EntityManagerInterface $em
      */
     public function __construct(
         LoggerInterface $logger,
         UserRepository $userRepository,
-        MailService $mailService
+        MailService $mailService,
+        EntityManagerInterface $em
     )
     {
-        parent::__construct($logger);
+        parent::__construct($logger, $em);
         $this->userRepository = $userRepository;
         $this->mailService = $mailService;
     }
@@ -83,7 +87,7 @@ class UserService extends Service
      */
     public function checkHashActual(string $hash)
     {
-        $hashTimestamp = (int) explode('-t-', $hash)[1];
+        $hashTimestamp = (int)explode('-t-', $hash)[1];
         $currentTimestamp = time();
 
         // 1 week - 604800

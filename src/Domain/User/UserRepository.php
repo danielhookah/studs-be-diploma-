@@ -10,14 +10,19 @@ namespace App\Domain\User;
 interface UserRepository
 {
     /**
-     * @return User[]
+     * @param int $userId
+     * @return UserEntity|null
+     */
+    public function find(int $userId): ?UserEntity;
+
+    /**
+     * @return UserEntity[]
      */
     public function findAll(): array;
 
     /**
      * @param int $id
-     * @return User
-     * @throws UserNotFoundException
+     * @return UserEntity
      */
-    public function findUserOfId(int $id): User;
+    public function findUserOfId(int $id): UserEntity;
 }

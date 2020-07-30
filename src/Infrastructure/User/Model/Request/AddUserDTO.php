@@ -18,8 +18,9 @@ class AddUserDTO extends AbstractDTO
 
     /**
      * @param array $content
+     * @param array $dataToPlug
      */
-    public function setData($content)
+    public function setData($content, $dataToPlug = [])
     {
         $this->firstName = $content['firstName'];
         $this->lastName = $content['lastName'];

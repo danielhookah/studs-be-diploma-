@@ -3,6 +3,7 @@ declare(strict_types=1);
 
 use App\Infrastructure\Project\Model\Request\AddProjectDTO;
 use App\Infrastructure\Project\Model\Request\UpdateProjectDTO;
+use App\Infrastructure\ProjectUser\Model\Request\AddProjectUserDTO;
 use App\Infrastructure\User\Model\Request\AddUserDTO;
 use App\Infrastructure\User\Model\Request\UpdateUserDTO;
 use DI\ContainerBuilder;
@@ -15,6 +16,8 @@ return function (ContainerBuilder $containerBuilder) {
         // project
         AddProjectDTO::class => \DI\autowire(AddProjectDTO::class),
         UpdateProjectDTO::class => \DI\autowire(UpdateProjectDTO::class),
+        // project user
+        AddProjectUserDTO::class => \DI\autowire(AddProjectUserDTO::class),
     ]);
 };
 

@@ -946,3 +946,1068 @@
 [2020-07-26T21:04:35.228320+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e973f0a"}
 [2020-07-26T21:04:37.116193+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"8da7f0c"}
 [2020-07-26T21:04:38.645053+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"7044b2e"}
+[2020-07-27T18:09:49.130186+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"bb0538e"}
+[2020-07-27T18:09:51.653912+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"7978792"}
+[2020-07-27T18:09:53.577823+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"40a7331"}
+[2020-07-27T18:09:57.998844+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d3c7a26"}
+[2020-07-27T18:12:31.883593+00:00] slim-app.INFO: Project of id 9 was viewed. [] {"uid":"b871349"}
+[2020-07-27T18:12:34.950097+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5d74aae"}
+[2020-07-27T18:12:36.467409+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"fcae2e7"}
+[2020-07-27T18:12:37.053011+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4177e6e"}
+[2020-07-27T18:12:37.554892+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2c66e25"}
+[2020-07-27T18:12:39.202544+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"78b1d6b"}
+[2020-07-27T18:13:08.478174+00:00] slim-app.INFO: User of id `2` was viewed. [] {"uid":"85aab75"}
+[2020-07-27T18:15:29.272457+00:00] slim-app.INFO: User of id `2` was viewed. [] {"uid":"7b24933"}
+[2020-07-27T18:16:15.329226+00:00] slim-app.INFO: User of id `2` was viewed. [] {"uid":"547bbdc"}
+[2020-07-27T18:19:34.062321+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"06cea44"}
+[2020-07-27T18:23:01.458496+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"c72f5c4"}
+[2020-07-27T18:30:00.726259+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"3f28d21"}
+[2020-07-27T18:33:25.729399+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"95c7841"}
+[2020-07-27T18:33:33.664249+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"dd02e85"}
+[2020-07-27T18:34:35.242182+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"dadebc2"}
+[2020-07-27T18:34:35.487045+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"9eb0467"}
+[2020-07-27T18:34:48.502199+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"66a4da9"}
+[2020-07-27T18:35:28.979891+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"1ec810a"}
+[2020-07-27T18:38:17.564093+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"a8b3371"}
+[2020-07-27T18:41:13.487794+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"27bcec2"}
+[2020-07-27T18:41:13.576443+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"5144d6f"}
+[2020-07-27T18:55:00.140544+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"7f49abc"}
+[2020-07-27T18:55:26.111621+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"88808d2"}
+[2020-07-27T18:55:28.374353+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"406ecda"}
+[2020-07-27T18:56:34.248308+00:00] slim-app.INFO: User of id 16 was updated. [] {"uid":"fc19aa5"}
+[2020-07-27T18:56:46.902059+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"23e4f4d"}
+[2020-07-27T18:56:46.980924+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"872f959"}
+[2020-07-27T18:57:09.187258+00:00] slim-app.INFO: User of id 16 was updated. [] {"uid":"c16e6ca"}
+[2020-07-27T18:57:10.989879+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"cc3f9e3"}
+[2020-07-27T18:57:11.079950+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"74a54e3"}
+[2020-07-27T18:57:51.803053+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"78d205e"}
+[2020-07-27T18:57:55.215646+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"bf98fef"}
+[2020-07-27T18:57:58.474325+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"87a4888"}
+[2020-07-27T18:58:00.237397+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"8aa9db7"}
+[2020-07-27T18:58:04.502898+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"81bf46a"}
+[2020-07-27T18:58:20.807802+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"9f762f0"}
+[2020-07-27T18:58:24.255291+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"8f9a95a"}
+[2020-07-27T18:58:24.984631+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"822266c"}
+[2020-07-27T18:58:25.269833+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"c2c909c"}
+[2020-07-27T18:58:25.592412+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a6b28bd"}
+[2020-07-27T18:58:26.916699+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"36b1ca2"}
+[2020-07-27T19:18:00.127707+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a49f2ec"}
+[2020-07-27T19:18:36.932971+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"0d30082"}
+[2020-07-27T19:18:38.668075+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"dcbb415"}
+[2020-07-27T19:18:39.655204+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"3878316"}
+[2020-07-27T19:19:01.347168+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"86993b9"}
+[2020-07-27T19:19:01.487548+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1a3a8c8"}
+[2020-07-27T19:19:01.884304+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d8c2af0"}
+[2020-07-27T19:19:05.108311+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ec12863"}
+[2020-07-27T19:19:07.367719+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6c439ff"}
+[2020-07-27T19:19:11.634924+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"0cf2996"}
+[2020-07-27T19:19:11.789924+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a234f6b"}
+[2020-07-27T19:19:12.203227+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1dde179"}
+[2020-07-27T19:19:16.368520+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"367ce7e"}
+[2020-07-27T19:19:17.902867+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"10e3be7"}
+[2020-07-27T19:19:25.508527+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"dfe4f3f"}
+[2020-07-27T19:19:25.644948+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2b01386"}
+[2020-07-27T19:19:26.029559+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"3cc9eb8"}
+[2020-07-27T19:19:29.425497+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5c1c61b"}
+[2020-07-27T19:19:32.018840+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"dba943d"}
+[2020-07-27T19:20:13.182552+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"acfefdc"}
+[2020-07-27T19:20:15.017042+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"62c8acc"}
+[2020-07-27T19:20:17.309386+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"bfcdcf4"}
+[2020-07-27T19:20:19.200354+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"414689c"}
+[2020-07-27T19:20:31.470920+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"9653dbf"}
+[2020-07-27T19:20:31.610474+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"0ce0ed3"}
+[2020-07-27T19:20:32.020093+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2b39156"}
+[2020-07-27T19:20:38.923601+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a86b500"}
+[2020-07-27T19:21:05.023699+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b501cad"}
+[2020-07-27T19:21:05.084642+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1329a49"}
+[2020-07-27T19:21:28.561558+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a01573e"}
+[2020-07-27T19:21:30.779263+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5d8467c"}
+[2020-07-27T19:21:32.197892+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a6078fe"}
+[2020-07-27T19:21:33.241956+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"cbb27b4"}
+[2020-07-27T19:21:48.988715+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"0f42999"}
+[2020-07-27T19:21:50.287247+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"88f2e20"}
+[2020-07-27T19:21:53.411496+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"561a009"}
+[2020-07-27T19:21:54.521858+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1d04e20"}
+[2020-07-27T19:21:56.281670+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6114efb"}
+[2020-07-27T19:21:57.258491+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"8ea61e6"}
+[2020-07-27T19:23:01.414347+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"3f8f774"}
+[2020-07-27T19:23:03.480580+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2568cdd"}
+[2020-07-27T19:23:04.556527+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"35b825e"}
+[2020-07-27T19:23:05.650791+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d2c84c4"}
+[2020-07-27T19:23:12.947689+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"cc3dc7f"}
+[2020-07-27T19:23:15.034498+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f73bda9"}
+[2020-07-27T19:23:16.212979+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6aa7184"}
+[2020-07-27T19:23:17.942699+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a1eb4eb"}
+[2020-07-27T19:23:20.042989+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ea95f8c"}
+[2020-07-27T19:23:37.138068+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1dc3b09"}
+[2020-07-27T19:23:39.426434+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b94d827"}
+[2020-07-27T19:23:40.929792+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"8248ad4"}
+[2020-07-27T19:23:42.124294+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1f36885"}
+[2020-07-27T19:23:50.804391+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d89a715"}
+[2020-07-27T19:23:55.204979+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"6e78647"}
+[2020-07-27T19:23:55.351414+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"731065b"}
+[2020-07-27T19:23:55.703871+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5ed6e15"}
+[2020-07-27T19:23:57.775534+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d315e67"}
+[2020-07-27T19:24:00.220107+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"4a1778c"}
+[2020-07-27T19:24:00.350713+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"66658b5"}
+[2020-07-27T19:24:00.723340+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"481635a"}
+[2020-07-27T19:24:02.606220+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6fa47f6"}
+[2020-07-27T19:24:03.614905+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d22c390"}
+[2020-07-27T19:25:01.842769+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"dfc7d73"}
+[2020-07-27T19:25:03.855906+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"03ea690"}
+[2020-07-27T19:25:04.845653+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5ab75ba"}
+[2020-07-27T19:25:06.857429+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5bac099"}
+[2020-07-27T19:28:02.926960+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"3ea4689"}
+[2020-07-27T19:28:05.168333+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"7148fdf"}
+[2020-07-27T19:28:06.395789+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e109355"}
+[2020-07-27T19:28:08.167596+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"53ad958"}
+[2020-07-27T19:28:17.383494+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"18e9683"}
+[2020-07-27T19:28:17.544453+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6db091e"}
+[2020-07-27T19:28:17.904198+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"bcc40bd"}
+[2020-07-27T19:28:19.808272+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b284b6c"}
+[2020-07-27T19:28:33.050085+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"5bb22ff"}
+[2020-07-27T19:28:33.160251+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"51dead0"}
+[2020-07-27T19:28:33.528429+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1cac71a"}
+[2020-07-27T19:28:36.903612+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2c572b9"}
+[2020-07-27T19:28:37.700179+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"c9a169b"}
+[2020-07-27T19:28:37.824483+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"44145c2"}
+[2020-07-27T19:28:38.248544+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"9efe179"}
+[2020-07-27T19:28:39.293577+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1d62d73"}
+[2020-07-27T19:28:40.223033+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"6c6c555"}
+[2020-07-27T19:28:40.342012+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e40ad6f"}
+[2020-07-27T19:28:40.735797+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2728f85"}
+[2020-07-27T19:28:41.828854+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"437192b"}
+[2020-07-27T19:28:41.958176+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"babf41d"}
+[2020-07-27T19:28:42.405180+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4368942"}
+[2020-07-27T19:28:46.926490+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b15ff81"}
+[2020-07-27T19:28:47.556911+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d297f90"}
+[2020-07-27T19:29:02.718961+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"55017bf"}
+[2020-07-27T19:29:04.096421+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5e86b8b"}
+[2020-07-27T19:29:05.358532+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"045551e"}
+[2020-07-27T19:29:07.963016+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"646ca49"}
+[2020-07-27T19:30:10.591526+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"9b9d559"}
+[2020-07-27T19:30:10.654299+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"51053bc"}
+[2020-07-27T19:30:12.477483+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"0e57285"}
+[2020-07-27T19:30:13.581834+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"3faa948"}
+[2020-07-27T19:30:15.228611+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"fafb9e3"}
+[2020-07-27T19:30:22.457407+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"8d25755"}
+[2020-07-27T19:30:31.984664+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"58a0ef2"}
+[2020-07-27T19:30:32.373097+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e62c70e"}
+[2020-07-27T19:30:34.957800+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"44d1431"}
+[2020-07-27T19:30:36.310768+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"60297bd"}
+[2020-07-27T19:30:45.228064+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"8b18ef7"}
+[2020-07-27T19:30:46.530570+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"de02494"}
+[2020-07-27T19:30:47.466459+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"8c2e51a"}
+[2020-07-27T19:31:02.897197+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f6c5fc3"}
+[2020-07-27T19:31:08.290927+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"667a63c"}
+[2020-07-27T19:31:08.407713+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d32102e"}
+[2020-07-27T19:31:08.785744+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b667734"}
+[2020-07-27T19:31:12.214382+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"dc0eb76"}
+[2020-07-27T19:31:13.976773+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ffdc4cc"}
+[2020-07-27T19:33:15.882559+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"0d37dc2"}
+[2020-07-27T19:33:21.472130+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d62045d"}
+[2020-07-27T19:33:25.290151+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"bc3f9e5"}
+[2020-07-27T19:33:28.114209+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e1b4f59"}
+[2020-07-27T19:34:21.375550+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f190db3"}
+[2020-07-27T19:34:56.275192+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b72b1e4"}
+[2020-07-27T19:34:57.477653+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ee37864"}
+[2020-07-27T19:34:58.710084+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b956128"}
+[2020-07-27T19:35:01.928347+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ec7bedb"}
+[2020-07-27T19:35:46.162821+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b55a9dc"}
+[2020-07-27T19:35:47.711502+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"bbbb6d9"}
+[2020-07-27T19:35:48.942335+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"892b08d"}
+[2020-07-27T19:35:50.215719+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6558bf1"}
+[2020-07-27T19:36:06.034921+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"75b7960"}
+[2020-07-27T19:36:07.442661+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"533b2c2"}
+[2020-07-27T19:36:08.731662+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"77a3500"}
+[2020-07-27T19:36:13.483472+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d0d35b0"}
+[2020-07-27T19:36:18.002147+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"bd8e35c"}
+[2020-07-27T19:36:27.732405+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"5716703"}
+[2020-07-27T19:36:27.859068+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ff9bb8e"}
+[2020-07-27T19:36:28.226498+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"224317c"}
+[2020-07-27T19:37:04.806960+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1b74be0"}
+[2020-07-27T19:37:07.054669+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"46297ce"}
+[2020-07-27T19:37:07.227670+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"9659a5b"}
+[2020-07-27T19:37:07.584863+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"7a6640e"}
+[2020-07-27T19:37:13.479904+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a61613a"}
+[2020-07-27T19:37:17.982512+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"c5ee0e1"}
+[2020-07-27T19:37:18.100713+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"da57678"}
+[2020-07-27T19:37:18.486261+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f29f0ad"}
+[2020-07-27T19:37:19.279744+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"cee0f32"}
+[2020-07-27T19:37:52.475162+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ba12212"}
+[2020-07-27T19:38:58.204497+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4c9c537"}
+[2020-07-27T19:39:22.134695+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2a5ed98"}
+[2020-07-27T19:40:03.958230+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"7fb4f76"}
+[2020-07-27T19:40:06.449684+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"e8ad3c7"}
+[2020-07-27T19:40:06.578553+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"310827d"}
+[2020-07-27T19:40:10.427750+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a94d14b"}
+[2020-07-27T19:40:12.014399+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"de3a58b"}
+[2020-07-27T19:40:12.881547+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1266285"}
+[2020-07-27T19:40:26.871757+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"c3ae603"}
+[2020-07-27T19:40:28.792972+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"7f7216b"}
+[2020-07-27T19:40:29.316662+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"62c4763"}
+[2020-07-27T19:40:29.856495+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2695024"}
+[2020-07-27T19:41:04.807103+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6621aae"}
+[2020-07-27T19:41:29.907693+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"9f1969c"}
+[2020-07-27T19:41:31.470146+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"6686ac6"}
+[2020-07-27T19:41:31.597153+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d6fa979"}
+[2020-07-27T19:41:43.478113+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"46ab8c0"}
+[2020-07-27T19:41:59.547040+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d9de610"}
+[2020-07-27T19:41:59.946325+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"7f15e5a"}
+[2020-07-27T19:42:00.307544+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"7249e8a"}
+[2020-07-27T19:42:38.607294+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"ba43643"}
+[2020-07-27T19:42:38.759684+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6e53062"}
+[2020-07-27T19:42:47.613775+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b2d50f0"}
+[2020-07-27T19:42:49.855052+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"80bd1dd"}
+[2020-07-27T19:42:50.621249+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f208d62"}
+[2020-07-27T19:43:09.419640+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ad31132"}
+[2020-07-27T19:43:11.412551+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"f110f2d"}
+[2020-07-27T19:43:11.537615+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ccbf291"}
+[2020-07-27T19:53:08.083306+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"16f16da"}
+[2020-07-27T19:53:08.196221+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"def9845"}
+[2020-07-27T19:53:16.405611+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4d4dbb3"}
+[2020-07-27T19:53:17.436397+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"c00a3d1"}
+[2020-07-27T19:53:18.214427+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"caa6e7d"}
+[2020-07-27T19:53:18.414332+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4ea0d11"}
+[2020-07-27T19:54:55.823594+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"778cd70"}
+[2020-07-27T19:54:55.939058+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b3afce1"}
+[2020-07-27T19:55:09.250109+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5354118"}
+[2020-07-27T19:55:17.760470+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a56e83f"}
+[2020-07-27T19:55:18.393596+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"348e697"}
+[2020-07-27T19:55:18.592773+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ed65267"}
+[2020-07-27T19:55:27.873476+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"80a0695"}
+[2020-07-27T19:55:28.046731+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"513b312"}
+[2020-07-27T19:56:31.349660+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"bf98f22"}
+[2020-07-27T19:56:32.662670+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"809afb9"}
+[2020-07-27T19:56:33.409150+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"9a52e65"}
+[2020-07-27T19:56:33.724861+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"59bf60a"}
+[2020-07-27T19:56:53.723725+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"996128e"}
+[2020-07-27T19:56:54.792931+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"686634f"}
+[2020-07-27T19:56:55.864157+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5a4a006"}
+[2020-07-27T19:56:56.938741+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e824df9"}
+[2020-07-27T19:57:01.667676+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"5629cb8"}
+[2020-07-27T19:57:01.799338+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"06a412f"}
+[2020-07-27T19:57:02.869889+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"aa242d0"}
+[2020-07-27T19:57:03.945233+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"20895dc"}
+[2020-07-27T19:57:05.018825+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"74d6db3"}
+[2020-07-27T19:57:55.896766+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"67bb99a"}
+[2020-07-27T19:57:56.309709+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"c02f1eb"}
+[2020-07-27T19:57:56.686694+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"88e2070"}
+[2020-07-27T19:57:57.058062+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"65646d6"}
+[2020-07-27T19:58:07.543073+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b3e34eb"}
+[2020-07-27T19:58:07.746038+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"886b0d0"}
+[2020-07-27T19:58:07.916643+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"58657a5"}
+[2020-07-27T19:58:08.086924+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d46c2b1"}
+[2020-07-27T19:58:39.203686+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d9e2431"}
+[2020-07-27T19:58:41.075512+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"99d6b8a"}
+[2020-07-27T19:58:41.158149+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"db9d441"}
+[2020-07-27T19:58:41.242032+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"361aaea"}
+[2020-07-27T19:59:30.897506+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"939767c"}
+[2020-07-27T19:59:31.064691+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"9ccdfd1"}
+[2020-07-27T19:59:31.150100+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"749fbce"}
+[2020-07-27T19:59:31.248621+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"cb1fcf3"}
+[2020-07-27T19:59:31.320374+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a92c41b"}
+[2020-07-27T20:00:01.481950+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"4b77bdd"}
+[2020-07-27T20:00:01.625889+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d730642"}
+[2020-07-27T20:00:01.701551+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"76d3514"}
+[2020-07-27T20:00:01.786113+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f01d762"}
+[2020-07-27T20:00:01.859638+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d19823f"}
+[2020-07-27T20:00:40.523176+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"5f3a6ac"}
+[2020-07-27T20:00:40.678066+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"dfa3063"}
+[2020-07-27T20:00:40.765587+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1fc1f1d"}
+[2020-07-27T20:00:40.848089+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"c95b77d"}
+[2020-07-27T20:00:40.935747+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"56cbcc9"}
+[2020-07-27T20:00:45.967754+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1b71d4b"}
+[2020-07-27T20:00:49.467515+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"65f09c6"}
+[2020-07-27T20:00:51.948050+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"7a902f9"}
+[2020-07-27T20:00:52.820365+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"3acb986"}
+[2020-07-27T20:00:58.075664+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"435ff2c"}
+[2020-07-27T20:00:58.193533+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"0b0efe0"}
+[2020-07-27T20:00:58.314956+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"81530cf"}
+[2020-07-27T20:00:58.428698+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2a3c095"}
+[2020-07-27T20:01:14.698326+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ae63796"}
+[2020-07-27T20:01:15.594441+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"41c0d82"}
+[2020-07-27T20:01:16.143445+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"73746a3"}
+[2020-07-27T20:01:16.574872+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ef02cc9"}
+[2020-07-27T20:02:00.125020+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"a427873"}
+[2020-07-27T20:02:00.296822+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e350089"}
+[2020-07-27T20:02:02.530916+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"dac45a2"}
+[2020-07-27T20:02:02.727079+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a59a662"}
+[2020-07-27T20:02:02.942669+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"85879e6"}
+[2020-07-27T20:02:36.840548+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"79089a2"}
+[2020-07-27T20:02:36.991322+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"99501cf"}
+[2020-07-27T20:02:37.326457+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f8c7e37"}
+[2020-07-27T20:02:42.275868+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"f44ddf6"}
+[2020-07-27T20:02:42.416271+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"123611f"}
+[2020-07-27T20:02:42.777118+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"257e164"}
+[2020-07-27T20:04:41.284196+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1403fcc"}
+[2020-07-27T20:04:43.375276+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"49a5d90"}
+[2020-07-27T20:04:43.550030+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"342691c"}
+[2020-07-27T20:04:43.892105+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"153e6c2"}
+[2020-07-27T20:04:45.121007+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"66a3296"}
+[2020-07-27T20:04:46.200919+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"df5159c"}
+[2020-07-27T20:05:18.823115+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"36315f4"}
+[2020-07-27T20:05:18.964192+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ef3bff6"}
+[2020-07-27T20:05:19.715743+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5c41a26"}
+[2020-07-27T20:05:20.719273+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"83257df"}
+[2020-07-27T20:05:20.988475+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"be941d6"}
+[2020-07-27T20:06:09.945131+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"dc1c3ca"}
+[2020-07-27T20:06:10.064521+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"410a844"}
+[2020-07-27T20:07:07.519408+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a2afdfd"}
+[2020-07-27T20:07:13.893645+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"54f565e"}
+[2020-07-27T20:07:14.886834+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"dbea2dd"}
+[2020-07-27T20:07:15.351064+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a171039"}
+[2020-07-27T20:07:15.850191+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"cfab955"}
+[2020-07-27T20:08:08.917531+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f6a767f"}
+[2020-07-27T20:08:22.137681+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6e8785f"}
+[2020-07-27T20:08:23.275463+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4264fb1"}
+[2020-07-27T20:08:23.691496+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"c20ce46"}
+[2020-07-27T20:08:24.007544+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"cfa376f"}
+[2020-07-27T20:08:27.977852+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"c2e4cff"}
+[2020-07-27T20:08:28.088677+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f913671"}
+[2020-07-27T20:08:57.135726+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"eb1438e"}
+[2020-07-27T20:08:58.087843+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b97c5e0"}
+[2020-07-27T20:08:58.615972+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ccf52a1"}
+[2020-07-27T20:08:58.870692+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"45e3308"}
+[2020-07-27T20:09:01.621947+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"8bd492f"}
+[2020-07-27T20:09:01.746841+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"8814779"}
+[2020-07-27T20:09:24.784759+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"37db544"}
+[2020-07-27T20:10:00.856335+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a3c2e8f"}
+[2020-07-27T20:10:01.938916+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"912dd61"}
+[2020-07-27T20:10:02.053974+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6b018d3"}
+[2020-07-27T20:10:02.655162+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ad38393"}
+[2020-07-27T20:10:30.803693+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"1eab637"}
+[2020-07-27T20:10:30.951013+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e225401"}
+[2020-07-27T20:10:32.036015+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"cce0a3c"}
+[2020-07-27T20:10:49.726637+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e3c7e3f"}
+[2020-07-27T20:10:50.685665+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6c97a2e"}
+[2020-07-27T20:10:50.816134+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"cb8187a"}
+[2020-07-27T20:10:51.702053+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"60c1091"}
+[2020-07-27T20:10:59.361823+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a191fac"}
+[2020-07-27T20:11:00.453299+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b53ccbe"}
+[2020-07-27T20:11:02.570997+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"e9fb6ed"}
+[2020-07-27T20:11:02.722709+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"bb9bfae"}
+[2020-07-27T20:11:03.811640+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ab4f52b"}
+[2020-07-27T20:11:04.217721+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f33dbbb"}
+[2020-07-27T20:11:04.964556+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"90c83e4"}
+[2020-07-27T20:12:15.004082+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"0f68b47"}
+[2020-07-27T20:12:15.837053+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"dc18843"}
+[2020-07-27T20:12:16.103531+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2312d28"}
+[2020-07-27T20:12:16.269835+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e737cdd"}
+[2020-07-27T20:12:23.611611+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5392771"}
+[2020-07-27T20:12:24.716251+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5f617d9"}
+[2020-07-27T20:12:25.377804+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"83df8f7"}
+[2020-07-27T20:12:25.704456+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"efc81a3"}
+[2020-07-27T20:13:49.954003+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"0344eb9"}
+[2020-07-27T20:13:52.666196+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"cf66f6f"}
+[2020-07-27T20:13:53.262036+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"bf525cd"}
+[2020-07-27T20:13:53.625644+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"657de95"}
+[2020-07-27T20:14:03.693634+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b622f28"}
+[2020-07-27T20:14:04.767523+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"796f5bd"}
+[2020-07-27T20:14:05.189624+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1e3e468"}
+[2020-07-27T20:14:05.920106+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"17f0419"}
+[2020-07-27T20:17:19.685269+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e266287"}
+[2020-07-27T20:17:20.569287+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6a665aa"}
+[2020-07-27T20:17:20.951373+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f53f7be"}
+[2020-07-27T20:17:21.400182+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5ad4a30"}
+[2020-07-27T20:17:33.781500+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"563bb30"}
+[2020-07-27T20:17:35.310253+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"dbfd808"}
+[2020-07-27T20:17:35.763323+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2114a59"}
+[2020-07-27T20:17:37.349464+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f7e84da"}
+[2020-07-27T20:17:40.105425+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"d33f2a6"}
+[2020-07-27T20:17:40.259610+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"05cb737"}
+[2020-07-27T20:17:41.201578+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"70a05a9"}
+[2020-07-27T20:17:41.468761+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b7d1ecc"}
+[2020-07-27T20:17:41.866419+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"754cecc"}
+[2020-07-27T20:18:05.558439+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"28878d1"}
+[2020-07-27T20:18:10.697272+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5123c5a"}
+[2020-07-27T20:18:10.989830+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b9a8b99"}
+[2020-07-27T20:18:26.409360+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6dd86c4"}
+[2020-07-27T20:18:36.110495+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"4b91919"}
+[2020-07-27T20:18:36.251484+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"3d038f4"}
+[2020-07-27T20:18:38.504696+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"cf8ef67"}
+[2020-07-27T20:18:38.904577+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"cddd255"}
+[2020-07-27T20:18:39.177027+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6ca9389"}
+[2020-07-27T20:20:37.824281+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5764089"}
+[2020-07-27T20:20:42.033036+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f5f67ec"}
+[2020-07-27T20:20:44.058688+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"472cb83"}
+[2020-07-27T20:20:44.205162+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a56b0ae"}
+[2020-07-27T20:20:45.038638+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5cd93bd"}
+[2020-07-27T20:20:46.365660+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"426289c"}
+[2020-07-27T20:20:48.031342+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1a530f4"}
+[2020-07-27T20:28:25.113192+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"c6033f7"}
+[2020-07-27T20:28:25.240825+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"87ae0e5"}
+[2020-07-27T20:28:38.320231+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f35ac98"}
+[2020-07-27T20:28:39.513672+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5bcbbd3"}
+[2020-07-27T20:28:40.862618+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2017efe"}
+[2020-07-27T20:28:48.172954+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"889670a"}
+[2020-07-27T20:30:08.827784+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6977074"}
+[2020-07-27T20:30:13.271509+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f9abae6"}
+[2020-07-27T20:30:14.801499+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"48108eb"}
+[2020-07-27T20:32:35.666162+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"c45e150"}
+[2020-07-27T20:32:36.875778+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"7bcae6a"}
+[2020-07-27T20:32:37.691988+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"694fc5b"}
+[2020-07-27T20:32:38.378353+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"43cb96c"}
+[2020-07-27T20:37:26.991632+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4f05ba0"}
+[2020-07-27T20:37:27.575303+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"0a43675"}
+[2020-07-27T20:37:27.740620+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2f2a5d0"}
+[2020-07-27T20:37:29.295128+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"0153030"}
+[2020-07-27T20:37:30.181708+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"0c14fa7"}
+[2020-07-27T20:37:31.188827+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"65aeb03"}
+[2020-07-27T20:37:43.799043+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"5955b45"}
+[2020-07-27T20:37:43.940549+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"8f564b3"}
+[2020-07-27T20:37:46.480595+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e0144d0"}
+[2020-07-27T20:37:48.010296+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"c69b65f"}
+[2020-07-27T20:38:26.678450+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"090af4e"}
+[2020-07-27T20:38:26.857936+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2cc65c9"}
+[2020-07-27T20:38:27.949109+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2aa26f3"}
+[2020-07-27T20:38:28.660167+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"7d88774"}
+[2020-07-27T20:38:30.331628+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"eea6ff6"}
+[2020-07-27T20:38:50.504785+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b2d45e2"}
+[2020-07-27T20:38:50.584529+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"abd4526"}
+[2020-07-27T20:38:51.482301+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a54bad2"}
+[2020-07-27T20:38:53.119999+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5dd4266"}
+[2020-07-27T20:38:53.572917+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"7661162"}
+[2020-07-27T20:39:41.125510+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"4c58dbc"}
+[2020-07-27T20:39:41.247515+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b8a0979"}
+[2020-07-27T20:39:42.930882+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ae28755"}
+[2020-07-27T20:39:46.110201+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"40e5ae4"}
+[2020-07-27T20:39:46.587758+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"c852992"}
+[2020-07-27T20:40:40.542180+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"555ead3"}
+[2020-07-27T20:40:40.610086+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1c95503"}
+[2020-07-27T20:40:52.352224+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"d55b27a"}
+[2020-07-27T20:40:52.501658+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"38f5fd0"}
+[2020-07-27T20:40:54.505651+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ae1827f"}
+[2020-07-27T20:40:55.888719+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"18a8f7a"}
+[2020-07-27T20:40:58.728550+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"9bc9150"}
+[2020-07-27T20:41:23.214453+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"8408117"}
+[2020-07-27T20:41:23.351739+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6515478"}
+[2020-07-27T20:41:51.019002+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b170517"}
+[2020-07-27T20:42:02.080247+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"baf6f89"}
+[2020-07-27T20:42:05.549131+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e96238a"}
+[2020-07-27T20:42:27.729393+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"ef71ecd"}
+[2020-07-27T20:42:27.881450+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b8b52a0"}
+[2020-07-27T20:43:03.575860+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b6f3607"}
+[2020-07-27T20:43:05.474694+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2c85b1b"}
+[2020-07-27T20:43:05.637309+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"0b8542a"}
+[2020-07-27T20:46:02.703397+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"54993f5"}
+[2020-07-27T20:46:02.816302+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"0f6ffeb"}
+[2020-07-27T20:46:21.472431+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"b25b616"}
+[2020-07-27T20:46:21.651640+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"c438099"}
+[2020-07-27T20:47:06.688230+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"edb7cf7"}
+[2020-07-27T20:47:06.910732+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"c9516be"}
+[2020-07-27T20:47:15.262975+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"eefae49"}
+[2020-07-27T20:47:15.440690+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d232b8a"}
+[2020-07-27T20:47:30.136496+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"9d73240"}
+[2020-07-27T20:47:30.208339+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5409255"}
+[2020-07-27T20:47:46.595074+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"d88366e"}
+[2020-07-27T20:47:46.713185+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"225d9e9"}
+[2020-07-27T20:47:50.660412+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"935e265"}
+[2020-07-27T20:47:50.873898+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"9a77fbd"}
+[2020-07-27T20:47:51.725733+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"3ba5728"}
+[2020-07-27T20:47:52.286862+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"7db0366"}
+[2020-07-27T20:47:52.842642+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"043e320"}
+[2020-07-27T20:48:09.363210+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"57b3cfc"}
+[2020-07-27T20:48:09.536164+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"91173e2"}
+[2020-07-27T20:48:25.137082+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"1be3fb0"}
+[2020-07-27T20:48:25.267818+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2aa9db4"}
+[2020-07-27T20:48:27.189558+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"e145044"}
+[2020-07-27T20:48:27.351883+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"96e813c"}
+[2020-07-27T20:49:16.694192+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"a591e15"}
+[2020-07-27T20:49:16.868295+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4854340"}
+[2020-07-27T20:49:40.154698+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"cb6610d"}
+[2020-07-27T20:49:40.342650+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"bbb23b8"}
+[2020-07-27T20:49:50.564063+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"3c51ddb"}
+[2020-07-27T20:49:50.680941+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2a7f6a6"}
+[2020-07-27T20:49:56.551625+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"fb13c14"}
+[2020-07-27T20:49:56.690942+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a6e8af3"}
+[2020-07-27T20:50:32.232768+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"bf053a6"}
+[2020-07-27T20:50:32.404827+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b66593b"}
+[2020-07-27T20:50:42.918707+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"1a17488"}
+[2020-07-27T20:50:43.037319+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"7a0e26a"}
+[2020-07-27T20:51:34.108842+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"016e0ed"}
+[2020-07-27T20:51:35.910987+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"a15f054"}
+[2020-07-27T20:51:36.035428+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"279a72b"}
+[2020-07-27T20:52:24.514392+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"f561e15"}
+[2020-07-27T20:52:24.682632+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"7b7e461"}
+[2020-07-27T20:52:26.291322+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"8319528"}
+[2020-07-27T20:52:27.868848+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a71ba57"}
+[2020-07-27T20:52:29.342365+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"02fc134"}
+[2020-07-27T20:53:09.407264+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"aa0e404"}
+[2020-07-27T20:53:11.537562+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"5519c24"}
+[2020-07-27T20:53:11.671589+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"89d88e8"}
+[2020-07-27T20:53:12.814177+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"745b4d2"}
+[2020-07-27T20:53:14.154129+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5fdeecb"}
+[2020-07-27T20:53:14.991905+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f49fc42"}
+[2020-07-27T20:53:38.810737+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6616425"}
+[2020-07-27T20:53:39.941467+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"feef327"}
+[2020-07-27T20:53:40.811733+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"bf5b89e"}
+[2020-07-27T20:53:41.803800+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"890be7a"}
+[2020-07-27T20:53:56.811734+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"30bfa1e"}
+[2020-07-27T20:53:56.977123+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e07d0db"}
+[2020-07-27T20:53:58.550423+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"0e8efc7"}
+[2020-07-27T20:53:59.751738+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"541eead"}
+[2020-07-27T20:54:01.242208+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a06f845"}
+[2020-07-27T20:54:13.583696+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"99f02f4"}
+[2020-07-27T20:54:13.739429+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ec0053b"}
+[2020-07-27T20:54:22.605403+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"392a4c9"}
+[2020-07-27T20:54:22.661795+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"389026e"}
+[2020-07-27T20:54:23.830027+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ee40944"}
+[2020-07-27T20:54:26.123353+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"aaf034f"}
+[2020-07-27T20:54:26.811105+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"476948b"}
+[2020-07-27T20:54:36.242127+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"71a2e56"}
+[2020-07-27T20:54:36.365180+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"45ef6c8"}
+[2020-07-27T20:54:39.028473+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f658bd0"}
+[2020-07-27T20:54:40.278658+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"fc24055"}
+[2020-07-27T20:54:40.817288+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"7771605"}
+[2020-07-27T21:13:15.221902+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"a9f8be8"}
+[2020-07-27T21:13:15.397383+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6fdf047"}
+[2020-07-27T21:13:16.877072+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"50c0a34"}
+[2020-07-27T21:13:18.133592+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e8f1ec6"}
+[2020-07-27T21:13:19.876099+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"0259733"}
+[2020-07-27T21:13:48.192958+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"d6f37d1"}
+[2020-07-27T21:13:48.366072+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"c01e120"}
+[2020-07-27T21:14:31.144286+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"129dd4f"}
+[2020-07-27T21:14:31.274220+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"c1dbecb"}
+[2020-07-27T21:14:35.488703+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"3983611"}
+[2020-07-27T21:14:37.339560+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"90ffa2d"}
+[2020-07-27T21:14:39.140288+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a4e1e81"}
+[2020-07-27T21:15:08.888566+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"314929f"}
+[2020-07-27T21:15:09.036034+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1c1e43a"}
+[2020-07-27T21:16:33.593283+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"6d0d7a7"}
+[2020-07-27T21:16:33.757852+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4ef7382"}
+[2020-07-27T21:16:44.665609+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"deabaa3"}
+[2020-07-27T21:16:44.825112+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e289c13"}
+[2020-07-27T21:16:46.899658+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"de9312e"}
+[2020-07-27T21:16:47.142393+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2536a2a"}
+[2020-07-27T21:18:33.291669+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"512d88e"}
+[2020-07-27T21:18:33.434495+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"71a0088"}
+[2020-07-27T21:18:59.112587+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"176c01e"}
+[2020-07-27T21:18:59.252352+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5fcb55e"}
+[2020-07-27T21:19:00.701693+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ed38141"}
+[2020-07-27T21:19:01.484680+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"247ac1c"}
+[2020-07-27T21:19:01.832579+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1590f98"}
+[2020-07-27T21:19:43.792215+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"8e06c59"}
+[2020-07-27T21:19:43.877009+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"369a8bf"}
+[2020-07-27T21:19:45.235447+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"9610131"}
+[2020-07-27T21:19:46.067011+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f602b66"}
+[2020-07-27T21:19:46.974587+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b3c8a73"}
+[2020-07-27T21:23:43.683362+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"933c592"}
+[2020-07-27T21:23:43.797225+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"344fd1e"}
+[2020-07-27T21:23:45.758497+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"8510ddf"}
+[2020-07-27T21:23:45.942995+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e346414"}
+[2020-07-27T21:23:46.201054+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"7421a86"}
+[2020-07-27T21:25:07.080934+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"c13e808"}
+[2020-07-27T21:25:07.258947+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"9601bc1"}
+[2020-07-27T21:25:18.932920+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"9b66b1d"}
+[2020-07-27T21:25:19.011334+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"44ffb29"}
+[2020-07-27T21:26:26.080206+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"30c3e64"}
+[2020-07-27T21:26:26.196780+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"71971fd"}
+[2020-07-27T21:26:49.253729+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"0b7a0b0"}
+[2020-07-27T21:26:49.437646+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a6021a2"}
+[2020-07-27T21:27:46.664732+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a5c9398"}
+[2020-07-27T21:28:17.147500+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"838065a"}
+[2020-07-27T21:28:17.292048+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"eef2179"}
+[2020-07-27T21:28:20.618342+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"65b3981"}
+[2020-07-27T21:28:21.900528+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"355a9ba"}
+[2020-07-27T21:28:22.113048+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4abe533"}
+[2020-07-27T21:29:47.891983+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"de7db9c"}
+[2020-07-27T21:29:48.057562+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d7bdc82"}
+[2020-07-27T21:29:50.322572+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a9e1919"}
+[2020-07-27T21:29:51.367873+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"670509f"}
+[2020-07-27T21:29:52.632535+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4753d5f"}
+[2020-07-27T21:30:57.795129+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"0a36f90"}
+[2020-07-27T21:30:59.819592+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d35c9e0"}
+[2020-07-27T21:31:02.028637+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ba6a1ea"}
+[2020-07-27T21:31:03.585937+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"8a52437"}
+[2020-07-27T21:31:04.609959+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"bd6ad8c"}
+[2020-07-27T21:31:24.181933+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"838e22f"}
+[2020-07-27T21:31:25.340882+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"9232b98"}
+[2020-07-27T21:31:29.716200+00:00] slim-app.INFO: Project of id 11 was viewed. [] {"uid":"644f13a"}
+[2020-07-27T21:31:32.138847+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"11e0fad"}
+[2020-07-27T21:31:32.841466+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"39278c3"}
+[2020-07-27T21:31:34.485202+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"c0f0fb0"}
+[2020-07-27T21:31:35.791687+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"39ed14d"}
+[2020-07-27T21:31:36.784513+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1aed5bb"}
+[2020-07-27T21:31:49.065254+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2414c27"}
+[2020-07-27T21:31:52.716328+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"8c2b347"}
+[2020-07-27T21:31:54.064462+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"fbbd3c6"}
+[2020-07-27T21:31:55.685805+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"9e0d1a5"}
+[2020-07-27T21:31:57.255402+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2a3a1f3"}
+[2020-07-27T21:32:04.512435+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4ffc6e3"}
+[2020-07-27T21:32:06.825043+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a4299b0"}
+[2020-07-27T21:33:14.087582+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1f1773f"}
+[2020-07-27T21:33:14.838637+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"9d046ce"}
+[2020-07-27T21:33:18.476235+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"11ae78c"}
+[2020-07-27T21:33:23.703643+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"3b7eb59"}
+[2020-07-27T21:33:27.671112+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ebe5051"}
+[2020-07-27T21:33:41.725741+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"df4c0f6"}
+[2020-07-27T21:33:42.488884+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"11edb8f"}
+[2020-07-27T21:33:43.925082+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"c01d207"}
+[2020-07-27T21:33:47.678428+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4fd07fb"}
+[2020-07-27T21:33:48.311462+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6be334a"}
+[2020-07-27T21:33:49.186644+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"31fa935"}
+[2020-07-27T21:33:50.195432+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"8fd6a5a"}
+[2020-07-27T21:33:51.264117+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"94f75ea"}
+[2020-07-27T21:34:03.716757+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"eb5b07e"}
+[2020-07-27T21:34:05.223821+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2187f22"}
+[2020-07-27T21:34:06.966281+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"be2efdd"}
+[2020-07-27T21:34:08.170549+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"368bed0"}
+[2020-07-27T21:34:10.416170+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"886fd5e"}
+[2020-07-27T21:34:11.341756+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f696836"}
+[2020-07-27T21:34:12.099315+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"dfbdd74"}
+[2020-07-27T21:34:12.932949+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"afcce6c"}
+[2020-07-27T21:34:14.163370+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b325164"}
+[2020-07-27T21:34:15.349001+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"066c3b3"}
+[2020-07-27T21:34:17.129077+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6be6fb4"}
+[2020-07-27T21:34:20.783804+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d343c9e"}
+[2020-07-27T21:34:22.148050+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"520b3c7"}
+[2020-07-27T21:34:23.231551+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"c8f2601"}
+[2020-07-27T21:34:24.101170+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"67d4f41"}
+[2020-07-27T21:34:27.135504+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ac91cb1"}
+[2020-07-27T21:34:28.363415+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"19ed145"}
+[2020-07-27T21:34:30.515515+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b9cf3c3"}
+[2020-07-27T21:34:31.368347+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2cf7605"}
+[2020-07-27T21:34:32.421218+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"c6f434d"}
+[2020-07-27T21:34:33.261719+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e67debd"}
+[2020-07-27T21:34:34.608087+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"89347e3"}
+[2020-07-27T21:34:48.365193+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"c273d01"}
+[2020-07-27T21:34:49.677405+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"38fae8b"}
+[2020-07-27T21:34:55.130840+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"d29e0c9"}
+[2020-07-27T21:34:55.304376+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1429b1d"}
+[2020-07-27T21:34:57.711761+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4a5975a"}
+[2020-07-27T21:34:57.959039+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"dda4e2c"}
+[2020-07-27T21:34:58.363077+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5dcc542"}
+[2020-07-27T21:36:21.885140+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f161189"}
+[2020-07-27T21:36:27.378995+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"7c5bbec"}
+[2020-07-27T21:36:30.849238+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"fbc4709"}
+[2020-07-27T21:36:31.662378+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"22187ff"}
+[2020-07-27T21:36:31.897655+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b3e2056"}
+[2020-07-27T21:36:32.460247+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5e0adb6"}
+[2020-07-27T21:36:33.265782+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"e902c5d"}
+[2020-07-27T21:36:35.029242+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"964b7d8"}
+[2020-07-27T21:36:37.015933+00:00] slim-app.INFO: Project of id 1 was viewed. [] {"uid":"a23b037"}
+[2020-07-27T21:36:38.315833+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"0f1d716"}
+[2020-07-27T21:36:49.113828+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"8b6b5b4"}
+[2020-07-27T21:36:51.110915+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4b3e9c6"}
+[2020-07-27T21:36:51.561300+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"aa03ac1"}
+[2020-07-27T21:36:52.198725+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e34a832"}
+[2020-07-30T19:37:06.755412+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a27f567"}
+[2020-07-30T19:37:09.384998+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"220919a"}
+[2020-07-30T19:37:09.707326+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"7ca9c75"}
+[2020-07-30T19:37:10.090973+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"013d73e"}
+[2020-07-30T19:37:12.182530+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f6eceea"}
+[2020-07-30T19:37:13.663979+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2286203"}
+[2020-07-30T19:37:14.701347+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"fc2f424"}
+[2020-07-30T19:37:15.599366+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"16c5b03"}
+[2020-07-30T19:37:25.100874+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"8ab4147"}
+[2020-07-30T19:37:26.611698+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"3d6898d"}
+[2020-07-30T19:37:27.619134+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"895b21e"}
+[2020-07-30T19:37:32.292842+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f483d4b"}
+[2020-07-30T19:37:33.926523+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"417f4da"}
+[2020-07-30T19:37:34.843271+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"3f50381"}
+[2020-07-30T19:37:36.079939+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f316866"}
+[2020-07-30T19:37:40.933515+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"59cbcf0"}
+[2020-07-30T19:37:42.325651+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4ade55f"}
+[2020-07-30T19:37:45.673049+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"eda0b26"}
+[2020-07-30T19:37:47.934378+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"fb3c9c3"}
+[2020-07-30T19:37:48.174794+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b5ceb0a"}
+[2020-07-30T19:37:48.765333+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"17f752e"}
+[2020-07-30T19:37:49.662219+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"e147c48"}
+[2020-07-30T19:37:51.270298+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"135d247"}
+[2020-07-30T19:37:52.063625+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6655ce8"}
+[2020-07-30T19:37:52.476436+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e940288"}
+[2020-07-30T19:37:52.694028+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ad73f3b"}
+[2020-07-30T19:37:54.023623+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"7ef0bc2"}
+[2020-07-30T19:38:04.056290+00:00] slim-app.INFO: Project of id 38 was updated. [] {"uid":"093ef9e"}
+[2020-07-30T19:38:04.204316+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"50ab179"}
+[2020-07-30T19:39:20.565999+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"83a9a4e"}
+[2020-07-30T19:39:22.090514+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b3de2f7"}
+[2020-07-30T19:40:00.370072+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"6152a18"}
+[2020-07-30T19:40:36.673382+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"416fa84"}
+[2020-07-30T19:40:38.523849+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"880f9e9"}
+[2020-07-30T19:40:40.432683+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"db9b98e"}
+[2020-07-30T19:40:41.639142+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"062e5f4"}
+[2020-07-30T19:40:52.203472+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f80e0f1"}
+[2020-07-30T19:40:57.955714+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1531472"}
+[2020-07-30T19:41:14.672587+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4d340cb"}
+[2020-07-30T19:41:16.202140+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"eb43568"}
+[2020-07-30T19:41:16.946555+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6821c57"}
+[2020-07-30T19:41:17.965111+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e2967ed"}
+[2020-07-30T19:41:32.976648+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e7c5f26"}
+[2020-07-30T19:41:34.483637+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"8cf42af"}
+[2020-07-30T19:41:35.425220+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"8c1c766"}
+[2020-07-30T19:41:36.749092+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"9ec7910"}
+[2020-07-30T19:41:39.120306+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"bc494fc"}
+[2020-07-30T19:41:42.780184+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a1ccff1"}
+[2020-07-30T19:41:44.213744+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b115657"}
+[2020-07-30T19:41:44.924212+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"563dc0c"}
+[2020-07-30T19:41:45.782592+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6e8192f"}
+[2020-07-30T19:41:47.787161+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"0f79162"}
+[2020-07-30T19:41:52.742650+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"eb0e410"}
+[2020-07-30T19:41:54.860513+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4e8c221"}
+[2020-07-30T19:41:56.088600+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"63bb3db"}
+[2020-07-30T19:41:56.979574+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"84f2138"}
+[2020-07-30T19:42:00.289914+00:00] slim-app.INFO: Project of id 36 was viewed. [] {"uid":"542a4ec"}
+[2020-07-30T19:42:27.869964+00:00] slim-app.INFO: Project of id 36 was updated. [] {"uid":"66bbf89"}
+[2020-07-30T19:42:28.293118+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"478b87b"}
+[2020-07-30T19:42:29.890096+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"7a71fe2"}
+[2020-07-30T19:42:31.931171+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"3096641"}
+[2020-07-30T19:42:32.776746+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"0f9a06b"}
+[2020-07-30T19:42:37.517455+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2ead8b9"}
+[2020-07-30T19:42:37.677120+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"dd953f4"}
+[2020-07-30T19:42:37.968617+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f1f5823"}
+[2020-07-30T19:42:45.912292+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ec08ca3"}
+[2020-07-30T19:43:20.704578+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d1356bb"}
+[2020-07-30T19:43:24.695734+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"7dec26a"}
+[2020-07-30T19:43:33.865908+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"91021ba"}
+[2020-07-30T19:43:35.461587+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2251ca5"}
+[2020-07-30T19:43:45.600742+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"52893dc"}
+[2020-07-30T19:44:23.375279+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"13e4a73"}
+[2020-07-30T19:44:26.144241+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"02b065c"}
+[2020-07-30T19:44:28.256703+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"a29cdea"}
+[2020-07-30T19:44:29.665286+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"71886b1"}
+[2020-07-30T19:44:30.899525+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f196d17"}
+[2020-07-30T19:44:31.848824+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4716e5d"}
+[2020-07-30T19:44:32.929426+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"b7483b9"}
+[2020-07-30T19:45:01.423569+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"f92d353"}
+[2020-07-30T19:45:12.462321+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"730572a"}
+[2020-07-30T19:45:13.753221+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"00f382b"}
+[2020-07-30T19:45:14.535637+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4fca9fb"}
+[2020-07-30T19:45:15.118309+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"49cd72b"}
+[2020-07-30T19:45:19.539063+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"efe37a4"}
+[2020-07-30T19:45:20.862808+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"1c3d950"}
+[2020-07-30T19:45:22.234043+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2332348"}
+[2020-07-30T19:45:32.188727+00:00] slim-app.INFO: Project of id 10 was viewed. [] {"uid":"6f7102b"}
+[2020-07-30T19:45:59.755922+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ae4850e"}
+[2020-07-30T19:46:03.289694+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d61a469"}
+[2020-07-30T19:46:03.975610+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"fb2073a"}
+[2020-07-30T19:46:04.149332+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"085bf69"}
+[2020-07-30T19:46:04.388044+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ae57fcc"}
+[2020-07-30T19:46:05.632053+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"bafeec7"}
+[2020-07-30T19:49:57.816307+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"db7a26e"}
+[2020-07-30T19:49:59.939224+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"7e61771"}
+[2020-07-30T20:10:51.723652+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"61fbc33"}
+[2020-07-30T20:10:55.378452+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"4268f56"}
+[2020-07-30T20:15:30.660160+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f9971ff"}
+[2020-07-30T20:16:08.493072+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"85ffcd9"}
+[2020-07-30T20:18:46.265805+00:00] slim-app.INFO: User of id 17 was created. [] {"uid":"3c5f38c"}
+[2020-07-30T20:20:06.656217+00:00] slim-app.INFO: User of id 18 was created. [] {"uid":"bd02af0"}
+[2020-07-30T20:24:45.376069+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2c69b04"}
+[2020-07-30T20:25:01.565749+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"448596a"}
+[2020-07-30T20:25:14.992801+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"da7260b"}
+[2020-07-30T20:26:14.535864+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"687c1eb"}
+[2020-07-30T20:26:17.136459+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"92e9772"}
+[2020-07-30T20:26:20.810091+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"c3819cc"}
+[2020-07-30T20:27:04.163152+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"7a8a276"}
+[2020-07-30T20:28:45.522558+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"8e4728c"}
+[2020-07-30T20:29:05.973491+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"fe10a07"}
+[2020-07-30T20:29:19.998752+00:00] slim-app.INFO: User of id 18 was confirmed. [] {"uid":"1382a47"}
+[2020-07-30T20:29:35.069992+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"51c9f00"}
+[2020-07-30T20:29:36.541144+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e1c4cf3"}
+[2020-07-30T20:29:37.717371+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"169d038"}
+[2020-07-30T20:29:38.875584+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"a5f57ce"}
+[2020-07-30T20:30:38.360804+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"3af1e4e"}
+[2020-07-30T20:31:12.125211+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"9426f16"}
+[2020-07-30T20:32:13.892695+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"d55bd90"}
+[2020-07-30T20:32:30.586459+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a3bbfe2"}
+[2020-07-30T21:01:52.047913+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e296fc4"}
+[2020-07-30T21:02:00.437232+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"180abeb"}
+[2020-07-30T21:02:02.007729+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f45fb86"}
+[2020-07-30T21:02:41.980317+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f69fdc6"}
+[2020-07-30T21:02:42.522244+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d667589"}
+[2020-07-30T21:02:52.717510+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"3b08d3c"}
+[2020-07-30T21:03:02.094020+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"89aa797"}
+[2020-07-30T21:03:06.612856+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e2b2a27"}
+[2020-07-30T21:04:20.015458+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"0714f53"}
+[2020-07-30T21:04:20.838923+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"09bf00e"}
+[2020-07-30T21:04:21.017082+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"04230bc"}
+[2020-07-30T21:04:21.242440+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"9806570"}
+[2020-07-30T21:04:53.509195+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e3f76da"}
+[2020-07-30T21:04:58.337675+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f600f77"}
+[2020-07-30T21:05:01.541510+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2178368"}
+[2020-07-30T21:05:01.821740+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"dc036da"}
+[2020-07-30T21:05:03.708004+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6f187e7"}
+[2020-07-30T21:05:17.574314+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"8e138d2"}
+[2020-07-30T21:05:19.839722+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"9d28771"}
+[2020-07-30T21:05:20.546380+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"cc04b94"}
+[2020-07-30T21:05:20.787908+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ebadb3d"}
+[2020-07-30T21:05:21.256831+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"afc5756"}
+[2020-07-30T21:05:23.682101+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"513f020"}
+[2020-07-30T21:05:24.715997+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"3ca1f54"}
+[2020-07-30T21:05:24.910400+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f95ebac"}
+[2020-07-30T21:05:25.258850+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"c5bd0db"}
+[2020-07-30T21:05:28.377415+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5a9bbfb"}
+[2020-07-30T21:05:30.292803+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"769e115"}
+[2020-07-30T21:05:30.976128+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e896568"}
+[2020-07-30T21:05:31.162589+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"3809455"}
+[2020-07-30T21:05:31.368017+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"8f8be1d"}
+[2020-07-30T21:05:32.706880+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"9aa1f01"}
+[2020-07-30T21:06:30.322078+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"342f51c"}
+[2020-07-30T21:06:32.516503+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f263899"}
+[2020-07-30T21:06:32.771308+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"59cf4a0"}
+[2020-07-30T21:06:33.545521+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"320b949"}
+[2020-07-30T21:06:35.421291+00:00] slim-app.INFO: Project of id 37 was viewed. [] {"uid":"1eed8f8"}
+[2020-07-30T21:06:39.394367+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5cce013"}
+[2020-07-30T21:06:40.566798+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4e09ae2"}
+[2020-07-30T21:07:13.641001+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"40ab521"}
+[2020-07-30T21:08:08.726236+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"39adf4c"}
+[2020-07-30T21:08:42.036107+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2e8fdf1"}
+[2020-07-30T21:09:15.521869+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4b6bf99"}
+[2020-07-30T21:09:22.636563+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"dcdd449"}
+[2020-07-30T21:09:35.542871+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b682336"}
+[2020-07-30T21:09:59.337876+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1643a9d"}
+[2020-07-30T21:10:49.669644+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"453c14a"}
+[2020-07-30T21:11:14.150136+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"9410aa0"}
+[2020-07-30T21:11:18.741210+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"9dd5f2a"}
+[2020-07-30T21:11:20.816570+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"19a4d7e"}
+[2020-07-30T21:11:22.014617+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"9739c39"}
+[2020-07-30T21:11:48.794917+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4ed3746"}
+[2020-07-30T21:11:48.948753+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a2ac6a9"}
+[2020-07-30T21:11:49.167038+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2749da7"}
+[2020-07-30T21:12:05.082791+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"df211cc"}
+[2020-07-30T21:12:05.653653+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f1f5d56"}
+[2020-07-30T21:12:05.859517+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ff28c10"}
+[2020-07-30T21:12:06.120263+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ce75150"}
+[2020-07-30T21:12:07.866711+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"80c20ce"}
+[2020-07-30T21:12:12.902655+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f587c29"}
+[2020-07-30T21:13:02.136606+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6ed649d"}
+[2020-07-30T21:13:02.907473+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"c4efc39"}
+[2020-07-30T21:13:06.139934+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6197b41"}
+[2020-07-30T21:13:07.894953+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f4924da"}
+[2020-07-30T21:15:33.681753+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5d462b4"}
+[2020-07-30T21:16:19.454983+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"18d8da2"}
+[2020-07-30T21:16:22.315337+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2ad1d53"}
+[2020-07-30T21:17:12.318449+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"49f2f0c"}
+[2020-07-30T21:17:25.264645+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"34c0fc1"}
+[2020-07-30T21:17:26.131932+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"243761a"}
+[2020-07-30T21:17:26.288856+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"bdc61ed"}
+[2020-07-30T21:17:26.469090+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"21eb725"}
+[2020-07-30T21:17:27.811251+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"1eee32f"}
+[2020-07-30T21:17:31.156115+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"354ae89"}
+[2020-07-30T21:17:38.571887+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"924f079"}
+[2020-07-30T21:17:40.243573+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"c8fd788"}
+[2020-07-30T21:17:41.204404+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"452f0d3"}
+[2020-07-30T21:17:42.588378+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"310e62f"}
+[2020-07-30T21:17:42.780878+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f1acc44"}
+[2020-07-30T21:17:43.138711+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d861160"}
+[2020-07-30T21:17:44.213148+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"b1a5fdb"}
+[2020-07-30T21:17:56.039973+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"cb89934"}
+[2020-07-30T21:17:57.965471+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"3033474"}
+[2020-07-30T21:17:58.740512+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d5fe64d"}
+[2020-07-30T21:17:58.938060+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6bcab6e"}
+[2020-07-30T21:17:59.209208+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1976c97"}
+[2020-07-30T21:18:01.253148+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f3c8883"}
+[2020-07-30T21:18:02.074060+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2bc5b54"}
+[2020-07-30T21:18:02.284093+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a076b87"}
+[2020-07-30T21:18:02.641136+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"943324e"}
+[2020-07-30T21:18:03.813289+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"8d7bc59"}
+[2020-07-30T21:18:05.898134+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"6caed98"}
+[2020-07-30T21:18:07.904156+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"eae6c6a"}
+[2020-07-30T21:18:09.168461+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4b8f39d"}
+[2020-07-30T21:18:09.321927+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"cd6d6bf"}
+[2020-07-30T21:18:09.529168+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2c1edc7"}
+[2020-07-30T21:18:27.741984+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4063ab4"}
+[2020-07-30T21:18:28.775713+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"841d261"}
+[2020-07-30T21:18:28.950708+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e78da02"}
+[2020-07-30T21:18:29.257864+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6045669"}
+[2020-07-30T21:18:34.512324+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"33b4863"}
+[2020-07-30T21:19:06.330647+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"3eda2a0"}
+[2020-07-30T21:19:08.727884+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"557e0b1"}
+[2020-07-30T21:19:08.917797+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"415e08b"}
+[2020-07-30T21:19:09.987753+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"cc20dd9"}
+[2020-07-30T21:19:11.511341+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"4dfcf49"}
+[2020-07-30T21:19:12.860589+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"cbaec51"}
+[2020-07-30T21:19:19.198105+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"6bfe44a"}
+[2020-07-30T21:19:20.295796+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"103c2c8"}
+[2020-07-30T21:19:24.779968+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"02955e7"}
+[2020-07-30T21:19:28.310563+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"46748f1"}
+[2020-07-30T21:19:30.285953+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"9108fca"}
+[2020-07-30T21:20:26.512560+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1bf6757"}
+[2020-07-30T21:20:26.619311+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"c2a52a3"}
+[2020-07-30T21:20:35.238086+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"071b31c"}
+[2020-07-30T21:20:37.102457+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"7ddd1d0"}
+[2020-07-30T21:20:37.431390+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"9d9a3c8"}
+[2020-07-30T21:20:37.806006+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"68237fe"}
+[2020-07-30T21:20:41.720134+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ce9109a"}
+[2020-07-30T21:20:42.570523+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e6b2d62"}
+[2020-07-30T21:20:42.773146+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f848cd6"}
+[2020-07-30T21:20:43.018551+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f724705"}
+[2020-07-30T21:21:30.198755+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"44378da"}
+[2020-07-30T21:21:30.275283+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"3dbf317"}
+[2020-07-30T21:21:38.644971+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d5055a9"}
+[2020-07-30T21:21:38.825194+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"043fe5e"}
+[2020-07-30T21:21:39.093117+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4dbf309"}
+[2020-07-30T21:22:32.454473+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"c259c09"}
+[2020-07-30T21:22:32.534713+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"bc711cd"}
+[2020-07-30T21:22:41.927011+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"8f248d6"}
+[2020-07-30T21:22:44.507037+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"7c39dba"}
+[2020-07-30T21:22:45.934935+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5caa6af"}
+[2020-07-30T21:22:46.754563+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f40e379"}
+[2020-07-30T21:22:46.941933+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d2f0eed"}
+[2020-07-30T21:22:47.325185+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"c95de60"}
+[2020-07-30T21:22:48.499270+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"f145631"}
+[2020-07-30T21:22:49.554211+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"6651567"}
+[2020-07-30T21:22:51.656986+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"cb615af"}
+[2020-07-30T21:22:55.991542+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"0d7672e"}
+[2020-07-30T21:22:56.165372+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f6b6ea5"}
+[2020-07-30T21:22:56.622882+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ea57eb7"}
+[2020-07-30T21:24:18.905648+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"a1d6c0e"}
+[2020-07-30T21:24:20.264814+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"26d8711"}
+[2020-07-30T21:24:30.985782+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"9cfc3ec"}
+[2020-07-30T21:24:33.096890+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"5d365c4"}
+[2020-07-30T21:24:34.012086+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"cfe8e0e"}
+[2020-07-30T21:24:34.199476+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b1c3940"}
+[2020-07-30T21:24:34.479280+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6938c3d"}
+[2020-07-30T21:24:36.434913+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"10df757"}
+[2020-07-30T21:24:37.019414+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"61e973f"}
+[2020-07-30T21:24:37.188870+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"83418cd"}
+[2020-07-30T21:24:37.402752+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"888ecdd"}
+[2020-07-30T21:24:38.445788+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"fb47f35"}
+[2020-07-30T21:24:39.841358+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"1fb56b2"}
+[2020-07-30T21:24:41.532802+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"76e7184"}
+[2020-07-30T21:24:42.972476+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"34c23fd"}
+[2020-07-30T21:24:43.118893+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"002ea60"}
+[2020-07-30T21:24:43.416381+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f8f7589"}
+[2020-07-30T21:24:44.608858+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"4de6b92"}
+[2020-07-30T21:24:49.488889+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"bda0fac"}
+[2020-07-30T21:24:54.927490+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"0f7a81d"}
+[2020-07-30T21:25:03.609886+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"daea6e9"}
+[2020-07-30T21:25:05.330097+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"fda2592"}
+[2020-07-30T21:25:10.173269+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"8bc3a48"}
+[2020-07-30T21:25:13.165833+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"eb3d361"}
+[2020-07-30T21:25:13.311963+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"a0f24e7"}
+[2020-07-30T21:25:13.572441+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"bffd8eb"}
+[2020-07-30T21:25:14.604707+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"d4e4f3d"}
+[2020-07-30T21:25:15.711314+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"84159b5"}
+[2020-07-30T21:25:22.497137+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"3cf8e62"}
+[2020-07-30T21:25:23.987476+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"48556ec"}
+[2020-07-30T21:25:24.971713+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"3b4b6c4"}
+[2020-07-30T21:25:25.237681+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1a92f03"}
+[2020-07-30T21:25:26.046564+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b254985"}
+[2020-07-30T21:25:27.206643+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"b1aee6e"}
+[2020-07-30T21:25:28.829248+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2b66a38"}
+[2020-07-30T21:25:41.730300+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b8fed3d"}
+[2020-07-30T21:25:45.798541+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"d30af0e"}
+[2020-07-30T21:25:46.515106+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4165e27"}
+[2020-07-30T21:25:46.722585+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b3b475d"}
+[2020-07-30T21:25:47.016298+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"b2056a0"}
+[2020-07-30T21:25:48.047169+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"21e77b3"}
+[2020-07-30T21:26:20.914355+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"c28f6e7"}
+[2020-07-30T21:26:20.971833+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"95deb50"}
+[2020-07-30T21:28:20.143867+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"ec988ba"}
+[2020-07-30T21:48:23.779592+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"8004318"}
+[2020-07-30T22:02:20.433592+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"18ea98e"}
+[2020-07-30T22:02:20.496149+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"8e40af9"}
+[2020-07-30T22:02:20.628009+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"9e92233"}
+[2020-07-30T22:04:05.388785+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"07bf737"}
+[2020-07-30T22:04:05.463669+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"700f212"}
+[2020-07-30T22:04:27.638482+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"c0f79d1"}
+[2020-07-30T22:04:27.739676+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"b177691"}
+[2020-07-30T22:18:31.205549+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"6e6ab32"}
+[2020-07-30T22:18:33.692937+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"275a306"}
+[2020-07-30T22:20:08.369410+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"ac94271"}
+[2020-07-30T22:20:08.444175+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"13e5dcb"}
+[2020-07-30T22:21:26.583857+00:00] slim-app.INFO: Project user of id 4 was created. [] {"uid":"e70f0f5"}
+[2020-07-30T22:28:37.292996+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"4b43ac5"}
+[2020-07-30T22:29:26.182757+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"69e8b38"}
+[2020-07-30T22:29:29.911451+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"3164ec5"}
+[2020-07-30T22:29:30.894706+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1778911"}
+[2020-07-30T22:29:31.083272+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f320aaf"}
+[2020-07-30T22:29:31.335870+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f069e30"}
+[2020-07-30T22:29:38.863940+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"052188d"}
+[2020-07-30T22:29:40.463459+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"6c92d53"}
+[2020-07-30T22:29:41.296493+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"10bd097"}
+[2020-07-30T22:29:41.493213+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"471f165"}
+[2020-07-30T22:29:41.866149+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"8552702"}
+[2020-07-30T22:29:54.241696+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"ffcb747"}
+[2020-07-30T22:31:48.318265+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"5f13288"}
+[2020-07-30T22:31:51.632148+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"3d29036"}
+[2020-07-30T22:31:51.740565+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"450e880"}
+[2020-07-30T22:32:43.512247+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"8b84e4d"}
+[2020-07-30T22:32:43.882249+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"9d6a08a"}
+[2020-07-30T22:32:43.939458+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"793f634"}
+[2020-07-30T22:32:48.016222+00:00] slim-app.INFO: Project user of id 5 was created. [] {"uid":"eb09575"}
+[2020-07-30T22:32:48.185908+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"8b97d57"}
+[2020-07-30T22:33:12.453818+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"77088c6"}
+[2020-07-30T22:33:13.774328+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"cec9429"}
+[2020-07-30T22:33:14.735411+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"23f42d0"}
+[2020-07-30T22:33:14.950396+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"ddb7c44"}
+[2020-07-30T22:33:15.317045+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"431fd20"}
+[2020-07-30T22:33:16.355142+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"2a1aa18"}
+[2020-07-30T22:34:06.280736+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"a742b7e"}
+[2020-07-30T22:34:06.379682+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"6a5e018"}
+[2020-07-30T22:34:06.495543+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"19a316d"}
+[2020-07-30T22:34:31.338466+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"bd5bf97"}
+[2020-07-30T22:34:31.596280+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"6014628"}
+[2020-07-30T22:34:31.726656+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"c5bc4e3"}
+[2020-07-30T22:41:25.401017+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"a33ea3f"}
+[2020-07-30T22:41:25.639298+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"d9d67ba"}
+[2020-07-30T22:41:25.715805+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"2898fc0"}
+[2020-07-30T22:43:02.323185+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"a16ffda"}
+[2020-07-30T22:43:02.396008+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"bdd2908"}
+[2020-07-30T22:43:02.466701+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"5b8a9eb"}
+[2020-07-30T22:43:54.935163+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"92c14cb"}
+[2020-07-30T22:43:55.027576+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"be3a96e"}
+[2020-07-30T22:43:55.154977+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"98b181f"}
+[2020-07-30T22:44:41.190357+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"d7328f6"}
+[2020-07-30T22:44:41.392846+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"6d7267d"}
+[2020-07-30T22:44:41.446069+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"99c3006"}
+[2020-07-30T22:46:11.146976+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"e994477"}
+[2020-07-30T22:46:11.874672+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"af307c7"}
+[2020-07-30T22:46:12.062892+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"0f0d4b0"}
+[2020-07-30T22:46:12.270789+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f6630e9"}
+[2020-07-30T22:46:13.104160+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"3d8901f"}
+[2020-07-30T22:46:13.879437+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"4fae578"}
+[2020-07-30T22:46:14.250040+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"61b3890"}
+[2020-07-30T22:46:14.443012+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"acad8c0"}
+[2020-07-30T23:10:54.681258+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"bba3a95"}
+[2020-07-30T23:11:19.899421+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"36eff4b"}
+[2020-07-30T23:11:32.610703+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"2e82e0b"}
+[2020-07-30T23:11:34.426933+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"a50dded"}
+[2020-07-30T23:11:56.223462+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"a00b475"}
+[2020-07-30T23:11:56.440762+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"2f4aff9"}
+[2020-07-30T23:14:07.895349+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"cbc9001"}
+[2020-07-30T23:14:08.064519+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"525e07a"}
+[2020-07-30T23:15:01.537579+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"2e13f4d"}
+[2020-07-30T23:15:01.724096+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"0b3c77a"}
+[2020-07-30T23:15:20.919859+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"08a0226"}
+[2020-07-30T23:15:21.074704+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"21fd767"}
+[2020-07-30T23:15:44.603078+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"12f9c93"}
+[2020-07-30T23:15:44.804357+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"844cf13"}
+[2020-07-30T23:16:04.768396+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"1a1e6bf"}
+[2020-07-30T23:16:04.942012+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"8fb05f3"}
+[2020-07-30T23:16:23.818972+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"ed1ca87"}
+[2020-07-30T23:16:24.004308+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"dd4b1bf"}
+[2020-07-30T23:16:34.418414+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"492ca9d"}
+[2020-07-30T23:16:34.515665+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2aedbd3"}
+[2020-07-30T23:16:35.825388+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"f4e303f"}
+[2020-07-30T23:16:36.848131+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"62f988c"}
+[2020-07-30T23:16:37.081798+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"be39fcd"}
+[2020-07-30T23:16:37.440110+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"1a33744"}
+[2020-07-30T23:16:38.478764+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"7e31f30"}
+[2020-07-30T23:16:57.133225+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"63004fc"}
+[2020-07-30T23:16:57.255031+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"eea96cd"}
+[2020-07-30T23:16:57.558811+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"601f0cf"}
+[2020-07-30T23:17:21.217474+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"9c80637"}
+[2020-07-30T23:17:21.401646+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"2240eb7"}
+[2020-07-30T23:17:21.468139+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"df4805f"}
+[2020-07-30T23:18:00.394064+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"b83ca7a"}
+[2020-07-30T23:18:00.589104+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"e048b5e"}
+[2020-07-30T23:18:00.633064+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"1d957b2"}
+[2020-07-30T23:18:18.156165+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"a8a2dc4"}
+[2020-07-30T23:18:18.279267+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"d4b4e21"}
+[2020-07-30T23:18:18.588397+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"e61735f"}
+[2020-07-30T23:18:21.921327+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"f861bb0"}
+[2020-07-30T23:18:22.101942+00:00] slim-app.INFO: User of id `0` was viewed. [] {"uid":"0d89b4b"}
+[2020-07-30T23:18:22.212799+00:00] slim-app.INFO: Project of id 38 was viewed. [] {"uid":"be00ab4"}
+[2020-07-30T23:18:54.884846+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"52b1f07"}
+[2020-07-30T23:18:55.594034+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"96e7a37"}
+[2020-07-30T23:18:56.298945+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"375456a"}
+[2020-07-30T23:18:56.470338+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"21c548b"}
+[2020-07-30T23:18:56.726373+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"82e4fb9"}
+[2020-07-30T23:18:59.528449+00:00] slim-app.INFO: Project user of id 6 was created. [] {"uid":"88a6aa8"}
+[2020-07-30T23:18:59.669249+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"61ab276"}
+[2020-07-30T23:19:04.053578+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2c772e6"}
+[2020-07-30T23:19:04.391941+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"692535d"}
+[2020-07-30T23:19:04.801589+00:00] slim-app.INFO: Projects list was viewed. [] {"uid":"2795d8a"}

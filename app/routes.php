@@ -8,6 +8,7 @@ use App\Application\Actions\Project\DeleteProjectAction;
 use App\Application\Actions\Project\ListProjectsAction;
 use App\Application\Actions\Project\UpdateProjectAction;
 use App\Application\Actions\Project\ViewProjectAction;
+use App\Application\Actions\ProjectUser\ApplyForProjectAction;
 use App\Application\Actions\User\CheckUserHashAction;
 use App\Application\Actions\User\ConfirmUserAction;
 use App\Application\Actions\User\CreateUserAction;
@@ -36,16 +37,16 @@ return function (App $app) {
 
     $app->group('/api', function (Group $api) use ($app) {
         // user
+        $api->post('/user[/]', CreateUserAction::class);
+        $api->get('/user/check-hash-actual/{hash}', CheckUserHashAction::class);
+        $api->put('/user/{id}/confirm[/]', ConfirmUserAction::class);
         $api->group('/user', function (Group $user) {
             $user->get('/list/[{filters}]', ListUsersAction::class);
 
             $user->get('/{id}', ViewUserAction::class);
-            $user->post('[/]', CreateUserAction::class);
             $user->put('/{id}', UpdateUserAction::class);
             $user->delete('/{id}', DeleteUserAction::class);
 
-            $user->get('/check-hash-actual/{hash}', CheckUserHashAction::class);
-            $user->put('/{id}/confirm[/]', ConfirmUserAction::class);
         })->add($app->getContainer()->get(JwtAuthMiddleware::class));
 
         // profile
@@ -57,13 +58,15 @@ return function (App $app) {
         });
 
         // project
+        $api->get('/project/list[{filters}]', ListProjectsAction::class);
+        $api->get('/project/{id}', ViewProjectAction::class);
         $api->group('/project', function (Group $project) {
-            $project->get('/list[{filters}]', ListProjectsAction::class);
 
-            $project->get('/{id}', ViewProjectAction::class);
             $project->post('[/]', CreateProjectAction::class);
             $project->put('/{id}', UpdateProjectAction::class);
             $project->delete('/{id}', DeleteProjectAction::class);
+
+            $project->post('/{id}/apply/{userId}', ApplyForProjectAction::class);
         })->add($app->getContainer()->get(JwtAuthMiddleware::class));
 
     })->add($app->getContainer()->get(CsrfMiddleware::class));

@@ -10,6 +10,7 @@ use App\Domain\ProjectUser\ProjectUserEntity;
 use App\Domain\Services\AccessService;
 use App\Domain\Services\ImageService;
 use App\Domain\Services\Service;
+use App\Domain\User\UserEntity;
 use App\Infrastructure\Shared\Exception\CreateEntityException;
 use Doctrine\ORM\EntityManagerInterface;
 use PHPMailer\PHPMailer\Exception;
@@ -78,5 +79,17 @@ class ProjectService extends Service
         }
 
         return true;
+    }
+
+    /**
+     * @param UserEntity $user
+     * @param ProjectEntity $project
+     * @throws Exception
+     */
+    public function checkProjectUserExists(UserEntity $user, ProjectEntity $project)
+    {
+        $result = $this->em->getRepository(ProjectUserEntity::class)
+            ->findOneBy(['user' => $user, 'project' => $project]);
+        if (boolval($result)) throw new Exception('Project user already exists.');
     }
 }
