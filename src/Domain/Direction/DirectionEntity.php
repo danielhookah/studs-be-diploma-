@@ -40,12 +40,6 @@ class DirectionEntity extends Entity
      */
     private string $description;
 
-    /**
-     * @var string|null
-     * @ORM\Column(name="`image_path`", type="string", length=255, nullable=true)
-     */
-    private ?string $image;
-
     // Joins
 
     /**
@@ -75,12 +69,10 @@ class DirectionEntity extends Entity
     public function __construct(array $initData = [])
     {
         parent::__construct();
-
         $this->status = $initData['status'];
         $this->name = $initData['name'];
         $this->description = $initData['description'];
         $this->project = $initData['project'];
-        $this->image ??= $initData['image'];
 
         $this->subjects = new ArrayCollection();
         $this->projectUsers = new ArrayCollection();
@@ -132,22 +124,6 @@ class DirectionEntity extends Entity
     public function setDescription(string $description): void
     {
         $this->description = $description;
-    }
-
-    /**
-     * @return string|null
-     */
-    public function getImage(): ?string
-    {
-        return $this->image;
-    }
-
-    /**
-     * @param string|null $image
-     */
-    public function setImage(?string $image): void
-    {
-        $this->image = $image;
     }
 
     /**

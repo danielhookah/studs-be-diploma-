@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+use App\Infrastructure\Direction\Model\Request\AddDirectionDTO;
+use App\Infrastructure\Direction\Model\Request\UpdateDirectionDTO;
 use App\Infrastructure\Project\Model\Request\AddProjectDTO;
 use App\Infrastructure\Project\Model\Request\UpdateProjectDTO;
 use App\Infrastructure\ProjectUser\Model\Request\AddProjectUserDTO;
@@ -18,6 +20,9 @@ return function (ContainerBuilder $containerBuilder) {
         UpdateProjectDTO::class => \DI\autowire(UpdateProjectDTO::class),
         // project user
         AddProjectUserDTO::class => \DI\autowire(AddProjectUserDTO::class),
+        // direction
+        AddDirectionDTO::class => \DI\autowire(AddDirectionDTO::class),
+        UpdateDirectionDTO::class => \DI\autowire(UpdateDirectionDTO::class),
     ]);
 };
 

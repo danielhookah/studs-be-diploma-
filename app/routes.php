@@ -1,6 +1,11 @@
 <?php
 declare(strict_types=1);
 
+use App\Application\Actions\Direction\CreateDirectionAction;
+use App\Application\Actions\Direction\DeleteDirectionAction;
+use App\Application\Actions\Direction\ListDirectionAction;
+use App\Application\Actions\Direction\UpdateDirectionAction;
+use App\Application\Actions\Direction\ViewDirectionAction;
 use App\Application\Actions\Profile\GetCsrfTokenAction;
 use App\Application\Actions\Profile\LogoutAction;
 use App\Application\Actions\Project\CreateProjectAction;
@@ -18,6 +23,7 @@ use App\Application\Actions\Profile\LoginAction;
 use App\Application\Actions\User\UpdateUserAction;
 use App\Application\Actions\User\ViewUserAction;
 use App\Application\Middleware\JwtAuthMiddleware;
+use App\Infrastructure\Direction\Model\Request\UpdateDirectionDTO;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Selective\Csrf\CsrfMiddleware;
@@ -67,6 +73,16 @@ return function (App $app) {
             $project->delete('/{id}', DeleteProjectAction::class);
 
             $project->post('/{id}/apply/{userId}', ApplyForProjectAction::class);
+        })->add($app->getContainer()->get(JwtAuthMiddleware::class));
+
+        // direction
+        $api->get('/direction/list[{filters}]', ListDirectionAction::class);
+        $api->get('/direction/{id}', ViewDirectionAction::class);
+        $api->group('/direction', function (Group $direction) {
+
+            $direction->post('[/]', CreateDirectionAction::class);
+            $direction->put('/{id}', UpdateDirectionAction::class);
+            $direction->delete('/{id}', DeleteDirectionAction::class);
         })->add($app->getContainer()->get(JwtAuthMiddleware::class));
 
     })->add($app->getContainer()->get(CsrfMiddleware::class));

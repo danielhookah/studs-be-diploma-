@@ -28,8 +28,8 @@ class ViewProjectAction extends ProjectAction
         $params = $this->getQueryParams();
 
         $project = $this->projectRepository->find($projectId);
-        $data = $responseUserDTO = new ResponseProjectDTO();
-        $responseUserDTO->setData($project, $params);
+        $data = $responseProjectDTO = new ResponseProjectDTO();
+        $responseProjectDTO->setData($project, $params);
 
         $this->logger->info("Project of id $projectId was viewed.");
 

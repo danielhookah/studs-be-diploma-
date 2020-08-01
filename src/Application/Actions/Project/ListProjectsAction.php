@@ -31,10 +31,10 @@ class ListProjectsAction extends ProjectAction
         ])->getPaginatedList();
 
         $data['projects'] = array_map(function (ProjectEntity $project) {
-            $responseUserDTO = new ResponseProjectDTO();
-            $responseUserDTO->setData($project);
+            $responseProjectDTO = new ResponseProjectDTO();
+            $responseProjectDTO->setData($project);
 
-            return $responseUserDTO;
+            return $responseProjectDTO;
         }, $data['projects']);
 
         $this->logger->info("Projects list was viewed.");

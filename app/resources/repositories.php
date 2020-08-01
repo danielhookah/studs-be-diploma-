@@ -1,6 +1,7 @@
 <?php
 declare(strict_types=1);
 
+use App\Domain\Direction\Persistence\DirectionRepository;
 use App\Domain\Project\Persistence\ProjectRepository;
 use App\Domain\User\Persistence\UserRepository;
 use DI\ContainerBuilder;
@@ -11,5 +12,8 @@ return function (ContainerBuilder $containerBuilder) {
     ]);
     $containerBuilder->addDefinitions([
         ProjectRepository::class => \DI\autowire(ProjectRepository::class),
+    ]);
+    $containerBuilder->addDefinitions([
+        DirectionRepository::class => \DI\autowire(DirectionRepository::class),
     ]);
 };

@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace App\Infrastructure\Project\Model\Response;
 
+use App\Domain\Direction\DirectionEntity;
 use App\Domain\Project\ProjectEntity;
+use App\Infrastructure\Direction\Model\Response\ResponseDirectionDTO;
 use App\Infrastructure\Shared\DTO\AbstractDTO;
 use App\Infrastructure\User\Model\Response\ResponseUserDTO;
 
@@ -19,6 +21,9 @@ class ResponseProjectDTO extends AbstractDTO
 
     /** @var bool|string $creator */
     public $creator = false;
+
+    /** @var bool|array $directions */
+    public $directions = false;
 
     /**
      * @param ProjectEntity $project
@@ -37,6 +42,17 @@ class ResponseProjectDTO extends AbstractDTO
             $creator = new ResponseUserDTO();
             $creator->setData($project->getCreator());
             $this->creator = $creator->toArray();
+        }
+        if (in_array('directions', $dataToPlug)) {
+            $data = [];
+            $project->getDirections()->map(function (DirectionEntity $directionEntity) use (&$data, $project) {
+                if ($directionEntity->getDeleted() === null) {
+                    $direction = new ResponseDirectionDTO();
+                    $direction->setData($directionEntity);
+                    $data[] = $direction->toArray();
+                }
+            });
+            $this->directions = $data;
         }
     }
 }
